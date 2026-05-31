@@ -9,8 +9,17 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        ink: "#1a1a1a",
+        paper: "#fafaf8",
+        line: "#e5e3dd",
+      },
+      fontFamily: {
+        sans: ["var(--font-plex-arabic)", "Geeza Pro", "Segoe UI", "Tahoma", "sans-serif"],
+      },
+      fontSize: {
+        base: ["16px", { lineHeight: "1.8" }],
+        heading: ["20px", { lineHeight: "1.4" }],
+        title: ["32px", { lineHeight: "1.3" }],
       },
     },
   },
