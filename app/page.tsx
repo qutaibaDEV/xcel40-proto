@@ -6,7 +6,7 @@ import { AgeCheckScreen } from '@/components/screens/AgeCheckScreen';
 import { RejectedScreen } from '@/components/screens/RejectedScreen';
 import { AssessmentScreen } from '@/components/screens/AssessmentScreen';
 import { ResultScreen } from '@/components/screens/ResultScreen';
-import { TodayPlaceholderScreen } from '@/components/screens/TodayPlaceholderScreen';
+import { TodayScreen } from '@/components/screens/TodayScreen';
 
 export default function Home() {
   const { state } = useApp();
@@ -23,7 +23,7 @@ export default function Home() {
     case 'result':
       return <ResultScreen />;
     case 'today':
-      return <TodayPlaceholderScreen />;
+      return <TodayScreen />;
     default:
       return <WelcomeScreen />;
   }
