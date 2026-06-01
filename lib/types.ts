@@ -79,6 +79,15 @@ export interface ReactionResponse {
   secondaryAction?: string;
 }
 
+// Onboarding flow step type
+export type FlowStep =
+  | 'welcome'
+  | 'age'
+  | 'rejected'
+  | 'assessment'
+  | 'result'
+  | 'today';
+
 // App state types
 export interface AppState {
   currentPersona: PersonaId;
@@ -88,4 +97,7 @@ export interface AppState {
   age?: number;
   assessmentAnswers?: Record<number, string>;
   reminderTime?: string;
+  currentStep: FlowStep;
+  assessmentStep: number;
+  hasCompletedOnboarding: boolean;
 }

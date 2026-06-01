@@ -7,6 +7,9 @@ const defaultState: AppState = {
   currentDay: 1,
   currentWeek: 1,
   completedDays: [],
+  currentStep: 'welcome',
+  assessmentStep: 1,
+  hasCompletedOnboarding: false,
 };
 
 export function loadState(): AppState {
