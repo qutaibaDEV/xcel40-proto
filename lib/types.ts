@@ -79,6 +79,16 @@ export interface ReactionResponse {
   secondaryAction?: string;
 }
 
+export type FeelingOption = 'exhausted' | 'tired-but-good' | 'light-want-more';
+
+export interface WorkoutSession {
+  day: number;
+  persona: PersonaId;
+  completedAt: string;
+  feeling?: FeelingOption;
+  note?: string;
+}
+
 // Onboarding flow step type
 export type FlowStep =
   | 'welcome'
@@ -86,7 +96,12 @@ export type FlowStep =
   | 'rejected'
   | 'assessment'
   | 'result'
-  | 'today';
+  | 'today'
+  | 'workout-active'
+  | 'workout-after-1'
+  | 'workout-after-2'
+  | 'workout-after-3'
+  | 'workout-after-4';
 
 // App state types
 export interface AppState {
@@ -100,4 +115,7 @@ export interface AppState {
   currentStep: FlowStep;
   assessmentStep: number;
   hasCompletedOnboarding: boolean;
+  workoutSessions: WorkoutSession[];
+  currentSessionFeeling?: FeelingOption;
+  currentSessionNote?: string;
 }

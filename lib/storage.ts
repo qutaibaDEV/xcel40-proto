@@ -10,6 +10,7 @@ const defaultState: AppState = {
   currentStep: 'welcome',
   assessmentStep: 1,
   hasCompletedOnboarding: false,
+  workoutSessions: [],
 };
 
 export function loadState(): AppState {

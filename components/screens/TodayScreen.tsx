@@ -10,7 +10,7 @@ import { personas } from '@/content/personas';
 import { week1 } from '@/content/week1';
 
 export function TodayScreen() {
-  const { state, setPersona, completeDay } = useApp();
+  const { state, setPersona, completeDay, startWorkout } = useApp();
   const currentPersona = personas[state.currentPersona];
   const personaList: PersonaId[] = ['khaled', 'yousef', 'abdullah'];
 
@@ -108,7 +108,7 @@ export function TodayScreen() {
             <p className="text-sm leading-relaxed mb-3">
               {scenario.workout}
             </p>
-            <Button variant="ghost" fullWidth={false}>
+            <Button variant="ghost" fullWidth={false} onClick={startWorkout}>
               ابدأ التمرين
             </Button>
           </Card>

@@ -1,7 +1,7 @@
 'use client';
 
 import { createContext, useContext, useEffect, useState, ReactNode } from 'react';
-import { AppState, FlowStep, PersonaId } from '@/lib/types';
+import { AppState, FeelingOption, FlowStep, PersonaId, WorkoutSession } from '@/lib/types';
 import { loadState, saveState } from '@/lib/storage';
 
 interface AppContextValue {
@@ -15,6 +15,11 @@ interface AppContextValue {
   nextAssessmentStep: () => void;
   completeOnboarding: () => void;
   reset: () => void;
+  startWorkout: () => void;
+  finishWorkoutPhysical: () => void;
+  setFeeling: (feeling: FeelingOption) => void;
+  setNote: (note: string) => void;
+  saveWorkoutSession: () => void;
 }
 
 const AppContext = createContext<AppContextValue | undefined>(undefined);
@@ -54,11 +59,33 @@ export function AppProvider({ children }: { children: ReactNode }) {
 
   const nextStep = () => {
     setState(prev => {
+      if (prev.currentStep === 'workout-after-4') {
+        const session: WorkoutSession = {
+          day: prev.currentDay,
+          persona: prev.currentPersona,
+          completedAt: new Date().toISOString(),
+          feeling: prev.currentSessionFeeling,
+          note: prev.currentSessionNote,
+        };
+        return {
+          ...prev,
+          currentStep: 'today' as FlowStep,
+          workoutSessions: [...prev.workoutSessions, session],
+          completedDays: Array.from(new Set([...prev.completedDays, prev.currentDay])),
+          currentDay: Math.max(prev.currentDay, prev.currentDay + 1),
+          currentSessionFeeling: undefined,
+          currentSessionNote: undefined,
+        };
+      }
+
       const stepMap: Partial<Record<FlowStep, FlowStep>> = {
         welcome: 'age',
         age: 'assessment',
         assessment: 'result',
         result: 'today',
+        'workout-after-1': 'workout-after-2',
+        'workout-after-2': 'workout-after-3',
+        'workout-after-3': 'workout-after-4',
       };
       const next = stepMap[prev.currentStep];
       if (!next) return prev;
@@ -86,6 +113,40 @@ export function AppProvider({ children }: { children: ReactNode }) {
     setState(prev => ({ ...prev, hasCompletedOnboarding: true, currentStep: 'today' }));
   };
 
+  const startWorkout = () => {
+    setState(prev => ({ ...prev, currentStep: 'workout-active' }));
+  };
+
+  const finishWorkoutPhysical = () => {
+    setState(prev => ({ ...prev, currentStep: 'workout-after-1' }));
+  };
+
+  const setFeeling = (feeling: FeelingOption) => {
+    setState(prev => ({ ...prev, currentSessionFeeling: feeling }));
+  };
+
+  const setNote = (note: string) => {
+    setState(prev => ({ ...prev, currentSessionNote: note }));
+  };
+
+  const saveWorkoutSession = () => {
+    setState(prev => {
+      const session: WorkoutSession = {
+        day: prev.currentDay,
+        persona: prev.currentPersona,
+        completedAt: new Date().toISOString(),
+        feeling: prev.currentSessionFeeling,
+        note: prev.currentSessionNote,
+      };
+      return {
+        ...prev,
+        workoutSessions: [...prev.workoutSessions, session],
+        currentSessionFeeling: undefined,
+        currentSessionNote: undefined,
+      };
+    });
+  };
+
   const reset = () => {
     setState({
       currentPersona: 'khaled',
@@ -95,11 +156,12 @@ export function AppProvider({ children }: { children: ReactNode }) {
       currentStep: 'welcome',
       assessmentStep: 1,
       hasCompletedOnboarding: false,
+      workoutSessions: [],
     });
   };
 
   return (
-    <AppContext.Provider value={{ state, setPersona, completeDay, setAge, setStep, nextStep, setAssessmentAnswer, nextAssessmentStep, completeOnboarding, reset }}>
+    <AppContext.Provider value={{ state, setPersona, completeDay, setAge, setStep, nextStep, setAssessmentAnswer, nextAssessmentStep, completeOnboarding, reset, startWorkout, finishWorkoutPhysical, setFeeling, setNote, saveWorkoutSession }}>
       {children}
     </AppContext.Provider>
   );
