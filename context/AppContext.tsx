@@ -2,6 +2,8 @@
 
 import { createContext, useContext, useEffect, useState, ReactNode } from 'react';
 import { AppState, FeelingOption, FlowStep, PersonaId, WorkoutSession } from '@/lib/types';
+
+export const MAIN_TABS: FlowStep[] = ['today', 'journey', 'body', 'achievements', 'account'];
 import { loadState, saveState } from '@/lib/storage';
 
 interface AppContextValue {
@@ -20,6 +22,7 @@ interface AppContextValue {
   setFeeling: (feeling: FeelingOption) => void;
   setNote: (note: string) => void;
   saveWorkoutSession: () => void;
+  isMainTab: () => boolean;
 }
 
 const AppContext = createContext<AppContextValue | undefined>(undefined);
@@ -147,6 +150,8 @@ export function AppProvider({ children }: { children: ReactNode }) {
     });
   };
 
+  const isMainTab = () => MAIN_TABS.includes(state.currentStep);
+
   const reset = () => {
     setState({
       currentPersona: 'khaled',
@@ -161,7 +166,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
   };
 
   return (
-    <AppContext.Provider value={{ state, setPersona, completeDay, setAge, setStep, nextStep, setAssessmentAnswer, nextAssessmentStep, completeOnboarding, reset, startWorkout, finishWorkoutPhysical, setFeeling, setNote, saveWorkoutSession }}>
+    <AppContext.Provider value={{ state, setPersona, completeDay, setAge, setStep, nextStep, setAssessmentAnswer, nextAssessmentStep, completeOnboarding, reset, startWorkout, finishWorkoutPhysical, setFeeling, setNote, saveWorkoutSession, isMainTab }}>
       {children}
     </AppContext.Provider>
   );

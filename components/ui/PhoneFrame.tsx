@@ -2,14 +2,16 @@
 
 import { ReactNode } from 'react';
 import { useApp } from '@/context/AppContext';
+import { BottomNav } from './BottomNav';
 
 interface PhoneFrameProps {
   children: ReactNode;
   variant?: 'light' | 'dark';
+  showNav?: boolean;
   showResetButton?: boolean;
 }
 
-export function PhoneFrame({ children, variant = 'light', showResetButton = true }: PhoneFrameProps) {
+export function PhoneFrame({ children, variant = 'light', showNav = false, showResetButton = true }: PhoneFrameProps) {
   const isDark = variant === 'dark';
   const { reset } = useApp();
 
@@ -21,7 +23,10 @@ export function PhoneFrame({ children, variant = 'light', showResetButton = true
             isDark ? 'bg-ink text-paper' : 'bg-paper text-ink'
           }`}
         >
-          {children}
+          <div className="flex-1 flex flex-col">
+            {children}
+          </div>
+          {showNav && !isDark && <BottomNav />}
         </div>
       </div>
       {showResetButton && (

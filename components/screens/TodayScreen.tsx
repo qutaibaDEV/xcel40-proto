@@ -19,7 +19,7 @@ export function TodayScreen() {
 
   if (!todayCard) {
     return (
-      <PhoneFrame variant="light">
+      <PhoneFrame variant="light" showNav={true}>
         <ScreenContainer>
           <div className="flex-1 flex items-center justify-center">
             <p className="opacity-60">المحتوى لهذا اليوم قادم</p>
@@ -33,7 +33,7 @@ export function TodayScreen() {
   const isWorkoutDay = todayCard.type === 'workout';
 
   return (
-    <PhoneFrame variant="light">
+    <PhoneFrame variant="light" showNav={true}>
       <ScreenContainer>
         {/* Top bar: day indicator + persona switcher */}
         <div className="flex items-center justify-between mb-6">
