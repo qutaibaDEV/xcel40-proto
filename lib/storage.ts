@@ -11,6 +11,7 @@ const defaultState: AppState = {
   assessmentStep: 1,
   hasCompletedOnboarding: false,
   workoutSessions: [],
+  weightEntries: [],
 };
 
 export function loadState(): AppState {

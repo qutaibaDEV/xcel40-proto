@@ -89,6 +89,11 @@ export interface WorkoutSession {
   note?: string;
 }
 
+export interface WeightEntry {
+  date: string;
+  weight: number;
+}
+
 // Onboarding flow step type
 export type FlowStep =
   | 'welcome'
@@ -122,4 +127,5 @@ export interface AppState {
   workoutSessions: WorkoutSession[];
   currentSessionFeeling?: FeelingOption;
   currentSessionNote?: string;
+  weightEntries: WeightEntry[];
 }

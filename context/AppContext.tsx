@@ -1,7 +1,7 @@
 'use client';
 
 import { createContext, useContext, useEffect, useState, ReactNode } from 'react';
-import { AppState, FeelingOption, FlowStep, PersonaId, WorkoutSession } from '@/lib/types';
+import { AppState, FeelingOption, FlowStep, PersonaId, WorkoutSession, WeightEntry } from '@/lib/types';
 
 export const MAIN_TABS: FlowStep[] = ['today', 'journey', 'body', 'achievements', 'account'];
 import { loadState, saveState } from '@/lib/storage';
@@ -23,6 +23,7 @@ interface AppContextValue {
   setNote: (note: string) => void;
   saveWorkoutSession: () => void;
   isMainTab: () => boolean;
+  addWeightEntry: (weight: number) => void;
 }
 
 const AppContext = createContext<AppContextValue | undefined>(undefined);
@@ -152,6 +153,16 @@ export function AppProvider({ children }: { children: ReactNode }) {
 
   const isMainTab = () => MAIN_TABS.includes(state.currentStep);
 
+  const addWeightEntry = (weight: number) => {
+    setState(prev => ({
+      ...prev,
+      weightEntries: [
+        ...prev.weightEntries,
+        { date: new Date().toISOString(), weight },
+      ],
+    }));
+  };
+
   const reset = () => {
     setState({
       currentPersona: 'khaled',
@@ -162,11 +173,12 @@ export function AppProvider({ children }: { children: ReactNode }) {
       assessmentStep: 1,
       hasCompletedOnboarding: false,
       workoutSessions: [],
+      weightEntries: [],
     });
   };
 
   return (
-    <AppContext.Provider value={{ state, setPersona, completeDay, setAge, setStep, nextStep, setAssessmentAnswer, nextAssessmentStep, completeOnboarding, reset, startWorkout, finishWorkoutPhysical, setFeeling, setNote, saveWorkoutSession, isMainTab }}>
+    <AppContext.Provider value={{ state, setPersona, completeDay, setAge, setStep, nextStep, setAssessmentAnswer, nextAssessmentStep, completeOnboarding, reset, startWorkout, finishWorkoutPhysical, setFeeling, setNote, saveWorkoutSession, isMainTab, addWeightEntry }}>
       {children}
     </AppContext.Provider>
   );
