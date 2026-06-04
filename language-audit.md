@@ -15,7 +15,7 @@ Each row below has:
 ### BottomNav.tsx
 | Location | Type | Current | Verdict | Note |
 |---|---|---|---|---|
-| BottomNav — Tab 1 | nav-label | اليوم |✅ |✅ |
+| BottomNav — Tab 1 | nav-label | اليوم |✅ | |
 | BottomNav — Tab 2 | nav-label | الرحلة |✅ | |
 | BottomNav — Tab 3 | nav-label | الجسم |✅ | |
 | BottomNav — Tab 4 | nav-label | إنجازاتي |✅ | |
@@ -40,18 +40,18 @@ Each row below has:
 
 | Location | Type | Current | Verdict | Note |
 |---|---|---|---|---|
-| WelcomeScreen — body | heading | عمرك 40 وفوق. وجسمك يحاول يقول لك شي من زمان. جاهز تسمعه؟ | | |
-| WelcomeScreen — button | button-label | جاهز | | |
+| WelcomeScreen — body | heading | عمرك 40 وفوق. وجسمك يحاول يقول لك شي من زمان. جاهز تسمعه؟ |✅ | |
+| WelcomeScreen — button | button-label | جاهز |✅ | |
 
 ### AgeCheckScreen.tsx
 *Strings pulled from onboarding.ts frame id=2*
 
 | Location | Type | Current | Verdict | Note |
 |---|---|---|---|---|
-| AgeCheckScreen — title | heading | كم عمرك؟ | | |
-| AgeCheckScreen — body | body-text | عشان نتأكد إن هذا التطبيق مصمم لك تحديداً. | | |
-| AgeCheckScreen — input placeholder | placeholder | 44 | | |
-| AgeCheckScreen — button | button-label | كمّل | | |
+| AgeCheckScreen — title | heading | كم عمرك؟ |✅ | |
+| AgeCheckScreen — body | body-text | عشان نتأكد إن هذا التطبيق مصمم لك تحديداً. |✅ | |
+| AgeCheckScreen — input placeholder | placeholder | 44 |✅ | |
+| AgeCheckScreen — button | button-label | كمّل |🟡 | |
 
 ### RejectedScreen.tsx
 
