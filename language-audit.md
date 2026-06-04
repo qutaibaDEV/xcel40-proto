@@ -405,22 +405,22 @@ Each row below has:
 
 | Location | Type | Current | Verdict | Note |
 |---|---|---|---|---|
-| Day 3 — title | heading | تمرين كامل أول | | |
-| Day 3 / Khaled — scene | scene | عيالك يلعبون كرة في الديوانية، وأنت تتفرج لأن تعبت بسرعة. اليوم تبدأ تعمل اللي يخليك تلعب معاهم في الأسبوع الجاي. | | |
-| Day 3 / Khaled — brain line 1 | dialog-line | ما أقدر. ما عمري سويت تمارين بهذا الشكل. | | |
-| Day 3 / Khaled — body line 1 | dialog-line | ولا أنا. بس راح نتعلم سوا. | | |
-| Day 3 / Khaled — challenge | challenge | سو التمرين قبل ما تفتح التلفون بعد الدوام. | | |
-| Day 3 / Khaled — workout | workout-text | 3 جولات × (10 ثانية مشي سريع في المكان + 20 ثانية وقوف وتنفس). ثم 5 جلوس على الكرسي والوقوف. | | |
-| Day 3 / Yousef — scene | scene | صحوت اليوم وصدرك يقفل. التعب اللي تحس فيه دائماً مو من الشغل، من جسم ما يتحرك. اليوم، قبل ما تطلع من البيت، عشر دقائق فقط. | | |
-| Day 3 / Yousef — brain line 1 | dialog-line | ما عندي وقت الصباح، عندي اجتماع. | | |
-| Day 3 / Yousef — body line 1 | dialog-line | تأخر 10 دقائق على الاجتماع. صحتك أهم من الإلتزام بالوقت بدقيقة. | | |
-| Day 3 / Yousef — challenge | challenge | سو التمرين في أي وقت، بس قبل الساعة 9 الليل. | | |
-| Day 3 / Yousef — workout | workout-text | 3 جولات × (10 ثانية مشي سريع + 20 ثانية تنفس). 5 Squats بكرسي. تقدر تسويه أي مكان. | | |
-| Day 3 / Abdullah — scene | scene | قرأت عشرات الكتب عن الصحة. الحين لازم تتحرك. لأن الفرق بين اللي يعرف واللي يتغيّر = الفعل. والفعل اليوم 10 دقائق فقط. | | |
-| Day 3 / Abdullah — brain line 1 | dialog-line | هذا التمرين بسيط جداً، ما راح يفرق شي. | | |
-| Day 3 / Abdullah — body line 1 | dialog-line | "Hormesis" — الضغط البسيط المتكرر يبني. ما تحتاج تمرين قوي، تحتاج تمرين منتظم. | | |
-| Day 3 / Abdullah — challenge | challenge | قبل التمرين، اكتب 3 أسطر: "ليش أنا هنا، اليوم". | | |
-| Day 3 / Abdullah — workout | workout-text | 3 جولات × (10 ثانية مشي سريع + 20 ثانية تنفس عميق). 5 Squats مع كرسي. ركز على الشكل أكثر من السرعة. | | |
+| Day 3 — title | heading | تمرين كامل أول |🟡 | |
+| Day 3 / Khaled — scene | scene | عيالك يلعبون كرة في الديوانية، وأنت تتفرج لأن تعبت بسرعة. اليوم تبدأ تعمل اللي يخليك تلعب معاهم في الأسبوع الجاي. |🟡 | |
+| Day 3 / Khaled — brain line 1 | dialog-line | ما أقدر. ما عمري سويت تمارين بهذا الشكل. |✅ | |
+| Day 3 / Khaled — body line 1 | dialog-line | ولا أنا. بس راح نتعلم سوا. |🟡 | |
+| Day 3 / Khaled — challenge | challenge | سو التمرين قبل ما تفتح التلفون بعد الدوام. |🟡 | |
+| Day 3 / Khaled — workout | workout-text | 3 جولات × (10 ثانية مشي سريع في المكان + 20 ثانية وقوف وتنفس). ثم 5 جلوس على الكرسي والوقوف. |🟡 | |
+| Day 3 / Yousef — scene | scene | صحوت اليوم وصدرك يقفل. التعب اللي تحس فيه دائماً مو من الشغل، من جسم ما يتحرك. اليوم، قبل ما تطلع من البيت، عشر دقائق فقط. |🟡 | |
+| Day 3 / Yousef — brain line 1 | dialog-line | ما عندي وقت الصباح، عندي اجتماع. |🟡 | |
+| Day 3 / Yousef — body line 1 | dialog-line | تأخر 10 دقائق على الاجتماع. صحتك أهم من الإلتزام بالوقت بدقيقة. |🟡 | |
+| Day 3 / Yousef — challenge | challenge | سو التمرين في أي وقت، بس قبل الساعة 9 الليل. |🟡 | |
+| Day 3 / Yousef — workout | workout-text | 3 جولات × (10 ثانية مشي سريع + 20 ثانية تنفس). 5 Squats بكرسي. تقدر تسويه أي مكان. |🟡 | |
+| Day 3 / Abdullah — scene | scene | قرأت عشرات الكتب عن الصحة. الحين لازم تتحرك. لأن الفرق بين اللي يعرف واللي يتغيّر = الفعل. والفعل اليوم 10 دقائق فقط. |🟡 | |
+| Day 3 / Abdullah — brain line 1 | dialog-line | هذا التمرين بسيط جداً، ما راح يفرق شي. |✅ | |
+| Day 3 / Abdullah — body line 1 | dialog-line | "Hormesis" — الضغط البسيط المتكرر يبني. ما تحتاج تمرين قوي، تحتاج تمرين منتظم. |🟡 | |
+| Day 3 / Abdullah — challenge | challenge | قبل التمرين، اكتب 3 أسطر: "ليش أنا هنا، اليوم". |✅ | |
+| Day 3 / Abdullah — workout | workout-text | 3 جولات × (10 ثانية مشي سريع + 20 ثانية تنفس عميق). 5 Squats مع كرسي. ركز على الشكل أكثر من السرعة. |🟡 | |
 
 ### week1.ts — Day 4 (الحوار الداخلي) — Rest Day
 
