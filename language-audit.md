@@ -354,7 +354,7 @@ Each row below has:
 
 | Location | Type | Current | Verdict | Note |
 |---|---|---|---|---|
-| Day 1 — title | heading | الاعتراف | | |
+| Day 1 — title | heading | الاعتراف |🟡 | |
 | Day 1 / Khaled — scene | scene | من سنين وأنت تقول "بكرة أبدأ". بكرة صار اليوم. ما عاد فيه بكرة. عيالك يكبرون، وأنت تنتظر اللحظة المثالية اللي ما راح تجي. | | |
 | Day 1 / Khaled — brain line 1 | dialog-line | اليوم متعب. الدوام كان طويل. خلنا بكرة. | | |
 | Day 1 / Khaled — body line 1 | dialog-line | عشر دقائق فقط. ما تخسر شي. | | |
