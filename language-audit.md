@@ -355,27 +355,27 @@ Each row below has:
 | Location | Type | Current | Verdict | Note |
 |---|---|---|---|---|
 | Day 1 — title | heading | الاعتراف |🟡 | |
-| Day 1 / Khaled — scene | scene | من سنين وأنت تقول "بكرة أبدأ". بكرة صار اليوم. ما عاد فيه بكرة. عيالك يكبرون، وأنت تنتظر اللحظة المثالية اللي ما راح تجي. | | |
-| Day 1 / Khaled — brain line 1 | dialog-line | اليوم متعب. الدوام كان طويل. خلنا بكرة. | | |
-| Day 1 / Khaled — body line 1 | dialog-line | عشر دقائق فقط. ما تخسر شي. | | |
-| Day 1 / Khaled — brain line 2 | dialog-line | وين راح يفرق عشر دقائق؟ | | |
-| Day 1 / Khaled — body line 2 | dialog-line | راح يفرق إنك بدأت. مو في النتيجة، في القرار. | | |
-| Day 1 / Khaled — challenge | challenge | اكتب على ورقة: "اليوم بدأت." علقها على المرايا. | | |
-| Day 1 / Khaled — workout | workout-text | المشي في المكان — 10 دقائق فقط. في غرفتك، في الصالة، أمام التلفزيون. بدون معدات. | | |
-| Day 1 / Yousef — scene | scene | طول اليوم تتنقل، تركض على شغلك، تحل مشاكل، تكلم ناس. وفي آخر اليوم، تكتشف إنك ما خصصت دقيقة وحدة لنفسك. لا دقيقة وحدة. | | |
-| Day 1 / Yousef — brain line 1 | dialog-line | عندي شغل. عندي مسؤوليات. لاحقاً. | | |
-| Day 1 / Yousef — body line 1 | dialog-line | 10 دقائق. أنت تضيع 10 دقائق في الواتساب كل ساعة. | | |
-| Day 1 / Yousef — brain line 2 | dialog-line | لكن أنا متعب. | | |
-| Day 1 / Yousef — body line 2 | dialog-line | التعب هذا مو من الجسم. هذا تعب نفسي. الحركة تفكه. | | |
-| Day 1 / Yousef — challenge | challenge | حدد ساعة وحدة في اليوم تكون "ساعتك". اكتبها في تقويمك. | | |
-| Day 1 / Yousef — workout | workout-text | المشي في المكان — 10 دقائق. تقدر تقسمها: 5 دقائق صباح + 5 دقائق ليل. المرونة لك. | | |
-| Day 1 / Abdullah — scene | scene | قرأت عن أهمية الرياضة. شفت الأبحاث. ناقشت الموضوع مع زملاء. ومع هذا، جسمك لا زال على نفس الكرسي، ولا زلت تأجل البداية لأسبوع جاي يمكن. | | |
-| Day 1 / Abdullah — brain line 1 | dialog-line | عمري 51. الوقت فات. | | |
-| Day 1 / Abdullah — body line 1 | dialog-line | بحث في جامعة هارفارد على رجال بعمر 70 بدوا رياضة، ورجعوا 30٪ من كتلتهم العضلية في 6 أشهر. | | |
-| Day 1 / Abdullah — brain line 2 | dialog-line | هذي حالات استثنائية. | | |
-| Day 1 / Abdullah — body line 2 | dialog-line | لا، هذي البيولوجيا. جسمك يستجيب، الفرق إنك ما طلبت منه شي. | | |
-| Day 1 / Abdullah — challenge | challenge | اقرأ بحث واحد عن "Sarcopenia" — ضمور العضلات بعد الـ40. افهم العدو. | | |
-| Day 1 / Abdullah — workout | workout-text | المشي في المكان — 10 دقائق. تأمل كل خطوة. لاحظ التنفس، الإيقاع، الإحساس. ابدأ بوعي. | | |
+| Day 1 / Khaled — scene | scene | من سنين وأنت تقول "بكرة أبدأ". بكرة صار اليوم. ما عاد فيه بكرة. عيالك يكبرون، وأنت تنتظر اللحظة المثالية اللي ما راح تجي. |🟡 | |
+| Day 1 / Khaled — brain line 1 | dialog-line | اليوم متعب. الدوام كان طويل. خلنا بكرة. |🟡 | |
+| Day 1 / Khaled — body line 1 | dialog-line | عشر دقائق فقط. ما تخسر شي. |✅ | |
+| Day 1 / Khaled — brain line 2 | dialog-line | وين راح يفرق عشر دقائق؟ |🟡 | |
+| Day 1 / Khaled — body line 2 | dialog-line | راح يفرق إنك بدأت. مو في النتيجة، في القرار. |✅ | |
+| Day 1 / Khaled — challenge | challenge | اكتب على ورقة: "اليوم بدأت." علقها على المرايا. |🟡 | |
+| Day 1 / Khaled — workout | workout-text | المشي في المكان — 10 دقائق فقط. في غرفتك، في الصالة، أمام التلفزيون. بدون معدات. |🟡 | |
+| Day 1 / Yousef — scene | scene | طول اليوم تتنقل، تركض على شغلك، تحل مشاكل، تكلم ناس. وفي آخر اليوم، تكتشف إنك ما خصصت دقيقة وحدة لنفسك. لا دقيقة وحدة. |🟡 | |
+| Day 1 / Yousef — brain line 1 | dialog-line | عندي شغل. عندي مسؤوليات. لاحقاً. |🟡 | |
+| Day 1 / Yousef — body line 1 | dialog-line | 10 دقائق. أنت تضيع 10 دقائق في الواتساب كل ساعة. |🟡 | |
+| Day 1 / Yousef — brain line 2 | dialog-line | لكن أنا متعب. |🟡 | |
+| Day 1 / Yousef — body line 2 | dialog-line | التعب هذا مو من الجسم. هذا تعب نفسي. الحركة تفكه. |🟡 | |
+| Day 1 / Yousef — challenge | challenge | حدد ساعة وحدة في اليوم تكون "ساعتك". اكتبها في تقويمك. |🟡 | |
+| Day 1 / Yousef — workout | workout-text | المشي في المكان — 10 دقائق. تقدر تقسمها: 5 دقائق صباح + 5 دقائق ليل. المرونة لك. |🟡 | |
+| Day 1 / Abdullah — scene | scene | قرأت عن أهمية الرياضة. شفت الأبحاث. ناقشت الموضوع مع زملاء. ومع هذا، جسمك لا زال على نفس الكرسي، ولا زلت تأجل البداية لأسبوع جاي يمكن. |🟡 | |
+| Day 1 / Abdullah — brain line 1 | dialog-line | عمري 51. الوقت فات. |🟡 | |
+| Day 1 / Abdullah — body line 1 | dialog-line | بحث في جامعة هارفارد على رجال بعمر 70 بدوا رياضة، ورجعوا 30٪ من كتلتهم العضلية في 6 أشهر. |🟡 | |
+| Day 1 / Abdullah — brain line 2 | dialog-line | هذي حالات استثنائية. |✅ | |
+| Day 1 / Abdullah — body line 2 | dialog-line | لا، هذي البيولوجيا. جسمك يستجيب، الفرق إنك ما طلبت منه شي. |🟡 | |
+| Day 1 / Abdullah — challenge | challenge | اقرأ بحث واحد عن "Sarcopenia" — ضمور العضلات بعد الـ40. افهم العدو. |🟡 | |
+| Day 1 / Abdullah — workout | workout-text | المشي في المكان — 10 دقائق. تأمل كل خطوة. لاحظ التنفس، الإيقاع، الإحساس. ابدأ بوعي. |🟡 | |
 
 ### week1.ts — Day 2 (لقاء الجسم) — Rest Day
 
