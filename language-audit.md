@@ -57,10 +57,10 @@ Each row below has:
 
 | Location | Type | Current | Verdict | Note |
 |---|---|---|---|---|
-| RejectedScreen — heading | heading | نعتذر | | |
-| RejectedScreen — body line 1 | body-text | هذا التطبيق مصمم خصيصاً لرجال بين 38 و 55 سنة. مو لأنك ما تقدر، بل لأن التخصص أهم من العموم. | | |
-| RejectedScreen — body line 2 | body-text | لاحقاً، راح نطلق نسخ أخرى لفئات مختلفة. ابقَ معنا. | | |
-| RejectedScreen — button | button-label | ابدأ من جديد | | |
+| RejectedScreen — heading | heading | نعتذر |✅ | |
+| RejectedScreen — body line 1 | body-text | هذا التطبيق مصمم خصيصاً لرجال بين 38 و 55 سنة. مو لأنك ما تقدر، بل لأن التخصص أهم من العموم. |🟡 | |
+| RejectedScreen — body line 2 | body-text | لاحقاً، راح نطلق نسخ أخرى لفئات مختلفة. ابقَ معنا. |🟡 | |
+| RejectedScreen — button | button-label | ابدأ من جديد |✅ | |
 
 ### AssessmentScreen.tsx
 *Questions and options pulled from onboarding.ts*
