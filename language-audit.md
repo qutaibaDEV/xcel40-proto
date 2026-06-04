@@ -67,185 +67,185 @@ Each row below has:
 
 | Location | Type | Current | Verdict | Note |
 |---|---|---|---|---|
-| AssessmentScreen — button (Q1–4) | button-label | التالي | | |
-| AssessmentScreen — button (Q5) | button-label | شوف نتيجتك | | |
+| AssessmentScreen — button (Q1–4) | button-label | التالي |✅ | |
+| AssessmentScreen — button (Q5) | button-label | شوف نتيجتك |🟡 | |
 
 ### ResultScreen.tsx
 *Strings pulled from onboarding.ts frame id=4*
 
 | Location | Type | Current | Verdict | Note |
 |---|---|---|---|---|
-| ResultScreen — eyebrow | section-label | نتيجتك | | |
-| ResultScreen — body | heading | إنت مو في وضع سيء. إنت في وضع متوقف. جسمك ينتظر إشارة بس. | | |
-| ResultScreen — button | button-label | وش الإشارة؟ | | |
+| ResultScreen — eyebrow | section-label | نتيجتك |🟡 | |
+| ResultScreen — body | heading | إنت مو في وضع سيء. إنت في وضع متوقف. جسمك ينتظر إشارة بس. |🟡 | |
+| ResultScreen — button | button-label | وش الإشارة؟ |🟡 | |
 
 ### TodayScreen.tsx
 
 | Location | Type | Current | Verdict | Note |
 |---|---|---|---|---|
-| TodayScreen — day bar (workout day) | section-label | اليوم {n} — تمرين | | |
-| TodayScreen — day bar (rest day) | section-label | اليوم {n} — راحة | | |
-| TodayScreen — greeting | body-text | مرحباً {اسم} | | |
-| TodayScreen — no content fallback | body-text | المحتوى لهذا اليوم قادم | | |
-| TodayScreen — scene card label | section-label | المشهد | | |
-| TodayScreen — dialog card label | section-label | العقل × الجسم | | |
-| TodayScreen — challenge eyebrow | section-label | تحدي اليوم | | |
-| TodayScreen — workout card label | section-label | تمرين اليوم | | |
-| TodayScreen — start workout button | button-label | ابدأ التمرين | | |
-| TodayScreen — complete day button | button-label | أنجزت اليوم | | |
-| TodayScreen — complete day button (done) | button-label | أنجزت اليوم — كمل بكرة | | |
+| TodayScreen — day bar (workout day) | section-label | اليوم {n} — تمرين |✅ | |
+| TodayScreen — day bar (rest day) | section-label | اليوم {n} — راحة |✅ | |
+| TodayScreen — greeting | body-text | مرحباً {اسم} |✅ | |
+| TodayScreen — no content fallback | body-text | المحتوى لهذا اليوم قادم |✅ | |
+| TodayScreen — scene card label | section-label | المشهد |🟡 | |
+| TodayScreen — dialog card label | section-label | العقل × الجسم |✅ | |
+| TodayScreen — challenge eyebrow | section-label | تحدي اليوم |✅ | |
+| TodayScreen — workout card label | section-label | تمرين اليوم |✅ | |
+| TodayScreen — start workout button | button-label | ابدأ التمرين |✅ | |
+| TodayScreen — complete day button | button-label | أنجزت اليوم |🟡 | |
+| TodayScreen — complete day button (done) | button-label | أنجزت اليوم — كمل بكرة |🟡 | |
 
 ### WorkoutActiveScreen.tsx
 
 | Location | Type | Current | Verdict | Note |
 |---|---|---|---|---|
-| WorkoutActiveScreen — eyebrow | section-label | اليوم {n} — تمرين | | |
-| WorkoutActiveScreen — workout section label | section-label | التمرين | | |
-| WorkoutActiveScreen — reassurance text | body-text | خذ وقتك. ما فيه استعجال. لما تخلص، اضغط الزر تحت. | | |
-| WorkoutActiveScreen — done button | button-label | خلصت | | |
-| WorkoutActiveScreen — back button | button-label | رجوع | | |
+| WorkoutActiveScreen — eyebrow | section-label | اليوم {n} — تمرين |✅ | |
+| WorkoutActiveScreen — workout section label | section-label | التمرين |✅ | |
+| WorkoutActiveScreen — reassurance text | body-text | خذ وقتك. ما فيه استعجال. لما تخلص، اضغط الزر تحت. |✅ | |
+| WorkoutActiveScreen — done button | button-label | خلصت |🟡 | |
+| WorkoutActiveScreen — back button | button-label | رجوع |✅ | |
 
 ### WorkoutAfter1Screen.tsx (✓ خلصت)
 
 | Location | Type | Current | Verdict | Note |
 |---|---|---|---|---|
-| WorkoutAfter1 — main message | heading | خلصت | | |
-| WorkoutAfter1 — body | body-text | دقائق من عمرك استثمرتها في نفسك. هذا اللي يفرق. | | |
-| WorkoutAfter1 — button | button-label | كمّل | | |
+| WorkoutAfter1 — main message | heading | خلصت |🟡 | |
+| WorkoutAfter1 — body | body-text | دقائق من عمرك استثمرتها في نفسك. هذا اللي يفرق. |🟡 | |
+| WorkoutAfter1 — button | button-label | كمّل |🟡 | |
 
 ### WorkoutAfter2Screen.tsx (كيف تحس؟)
 
 | Location | Type | Current | Verdict | Note |
 |---|---|---|---|---|
-| WorkoutAfter2 — heading | heading | كيف تحس بعد التمرين؟ | | |
-| WorkoutAfter2 — subtitle | body-text | ثانية وحدة. هذا يساعدنا نعرف جسمك. | | |
-| WorkoutAfter2 — feeling option 1 | button-label | منهك، كان صعب | | |
-| WorkoutAfter2 — feeling option 2 | button-label | تعبت بس حلو | | |
-| WorkoutAfter2 — feeling option 3 | button-label | خفيف، أقدر أزيد | | |
-| WorkoutAfter2 — add note toggle | button-label | + أضف ملاحظة (اختياري) | | |
-| WorkoutAfter2 — note placeholder | placeholder | وش حسيت؟ وش تعلمت؟ كلمة أو جملة، براحتك... | | |
-| WorkoutAfter2 — continue button | button-label | كمّل | | |
-| WorkoutAfter2 — skip button | button-label | تخطّى | | |
+| WorkoutAfter2 — heading | heading | كيف تحس بعد التمرين؟ |🟡 | |
+| WorkoutAfter2 — subtitle | body-text | ثانية وحدة. هذا يساعدنا نعرف جسمك. |🟡 | |
+| WorkoutAfter2 — feeling option 1 | button-label | منهك، كان صعب |🟡 | |
+| WorkoutAfter2 — feeling option 2 | button-label | تعبت بس حلو |✅ | |
+| WorkoutAfter2 — feeling option 3 | button-label | خفيف، أقدر أزيد |✅ | |
+| WorkoutAfter2 — add note toggle | button-label | + أضف ملاحظة (اختياري) |✅ | |
+| WorkoutAfter2 — note placeholder | placeholder | وش حسيت؟ وش تعلمت؟ كلمة أو جملة، براحتك... |🟡 | |
+| WorkoutAfter2 — continue button | button-label | كمّل |🟡 | |
+| WorkoutAfter2 — skip button | button-label | تخطّى |🟡 | |
 
 ### WorkoutAfter3Screen.tsx (تقدمك)
 
 | Location | Type | Current | Verdict | Note |
 |---|---|---|---|---|
-| WorkoutAfter3 — eyebrow | section-label | تقدمك | | |
-| WorkoutAfter3 — this week card label | section-label | هذا الأسبوع | | |
-| WorkoutAfter3 — this week unit | body-text | تمارين | | |
-| WorkoutAfter3 — all-time card label | section-label | من بداية الرحلة | | |
-| WorkoutAfter3 — all-time unit | body-text | جلسة تمرين | | |
-| WorkoutAfter3 — reflection text | body-text | كل جلسة بناء. شوي شوي، تتجمع. اللي خلصته اليوم، صار جزء من تاريخك. | | |
-| WorkoutAfter3 — button | button-label | كمّل | | |
+| WorkoutAfter3 — eyebrow | section-label | تقدمك |🟡 | |
+| WorkoutAfter3 — this week card label | section-label | هذا الأسبوع |✅ | |
+| WorkoutAfter3 — this week unit | body-text | تمارين |✅ | |
+| WorkoutAfter3 — all-time card label | section-label | من بداية الرحلة |✅ | |
+| WorkoutAfter3 — all-time unit | body-text | جلسة تمرين |✅ | |
+| WorkoutAfter3 — reflection text | body-text | كل جلسة بناء. شوي شوي، تتجمع. اللي خلصته اليوم، صار جزء من تاريخك. |🟡 | |
+| WorkoutAfter3 — button | button-label | كمّل |🟡 | |
 
 ### WorkoutAfter4Screen.tsx (بكرة)
 
 | Location | Type | Current | Verdict | Note |
 |---|---|---|---|---|
-| WorkoutAfter4 — eyebrow | section-label | بكرة | | |
-| WorkoutAfter4 — tomorrow hint (workout) | body-text | بكرة تمرين جديد. ٢٠ دقيقة بس. | | |
-| WorkoutAfter4 — tomorrow hint (rest) | body-text | بكرة يوم راحة. تحدي صغير ينتظرك. | | |
-| WorkoutAfter4 — tomorrow hint (end) | body-text | بكرة محتوى جديد ينتظرك. | | |
-| WorkoutAfter4 — closing line | body-text | شوفك الصبح. خذ راحتك الليلة، الجسم يبني وأنت نايم. | | |
-| WorkoutAfter4 — button | button-label | أغلق | | |
+| WorkoutAfter4 — eyebrow | section-label | بكرة |🟡 | |
+| WorkoutAfter4 — tomorrow hint (workout) | body-text | بكرة تمرين جديد. ٢٠ دقيقة بس. |🟡 | |
+| WorkoutAfter4 — tomorrow hint (rest) | body-text | بكرة يوم راحة. تحدي صغير ينتظرك. |🟡 | |
+| WorkoutAfter4 — tomorrow hint (end) | body-text | بكرة محتوى جديد ينتظرك. |🟡 | |
+| WorkoutAfter4 — closing line | body-text | شوفك الصبح. خذ راحتك الليلة، الجسم يبني وأنت نايم. |🟡 | |
+| WorkoutAfter4 — button | button-label | أغلق |✅ | |
 
 ### JourneyScreen.tsx
 
 | Location | Type | Current | Verdict | Note |
 |---|---|---|---|---|
-| JourneyScreen — eyebrow | section-label | رحلتك | | |
-| JourneyScreen — heading | heading | الـ 12 أسبوع | | |
-| JourneyScreen — subtitle | body-text | النجاح رحلة، مو نقطة وصول. | | |
-| JourneyScreen — "ما بعد" range label | section-label | ما بعد | | |
-| JourneyScreen — current week indicator | body-text | · أنت هنا | | |
-| JourneyScreen — locked phase text | body-text | 🔒 يفتح بعد إكمال الـ 12 أسبوع. | | |
-| JourneyScreen — philosophy footer | philosophy | خطوة وحدة في اليوم، أهم من ألف خطوة في الخيال. | | |
+| JourneyScreen — eyebrow | section-label | رحلتك |✅ | |
+| JourneyScreen — heading | heading | الـ 12 أسبوع |✅ | |
+| JourneyScreen — subtitle | body-text | النجاح رحلة، مو نقطة وصول. |✅ | |
+| JourneyScreen — "ما بعد" range label | section-label | ما بعد |🟡 | |
+| JourneyScreen — current week indicator | body-text | · أنت هنا |✅ | |
+| JourneyScreen — locked phase text | body-text | 🔒 يفتح بعد إكمال الـ 12 أسبوع. |✅ | |
+| JourneyScreen — philosophy footer | philosophy | خطوة وحدة في اليوم، أهم من ألف خطوة في الخيال. |✅ | |
 
 ### BodyScreen.tsx
 
 | Location | Type | Current | Verdict | Note |
 |---|---|---|---|---|
-| BodyScreen — eyebrow | section-label | متابعة | | |
-| BodyScreen — heading | heading | جسمك | | |
-| BodyScreen — weight card label | section-label | الوزن | | |
-| BodyScreen — weight unit | body-text | كيلو | | |
-| BodyScreen — weight diff suffix | body-text | كيلو من البداية | | |
-| BodyScreen — measurement count suffix | body-text | قياس | | |
-| BodyScreen — empty weight state | body-text | ما سجلت وزن بعد. ابدأ بإدخال وزنك الحالي. | | |
-| BodyScreen — weight input placeholder | placeholder | مثلاً: 85.5 | | |
-| BodyScreen — save button | button-label | حفظ | | |
-| BodyScreen — cancel button | button-label | إلغاء | | |
-| BodyScreen — add weight button | button-label | + سجّل وزن جديد | | |
-| BodyScreen — photos card label | section-label | الصور | | |
-| BodyScreen — photos placeholder | placeholder | صور البداية والتقدم. قادم. | | |
-| BodyScreen — measurements card label | section-label | القياسات | | |
-| BodyScreen — measurements placeholder | placeholder | الصدر، الخصر، الذراع. قادم. | | |
-| BodyScreen — philosophy footer | philosophy | الجسم يتغير ببطء، ودليله مو دائماً في الميزان. | | |
+| BodyScreen — eyebrow | section-label | متابعة |🟡 | |
+| BodyScreen — heading | heading | جسمك |✅ | |
+| BodyScreen — weight card label | section-label | الوزن |✅ | |
+| BodyScreen — weight unit | body-text | كيلو |✅ | |
+| BodyScreen — weight diff suffix | body-text | كيلو من البداية |✅ | |
+| BodyScreen — measurement count suffix | body-text | قياس |✅ | |
+| BodyScreen — empty weight state | body-text | ما سجلت وزن بعد. ابدأ بإدخال وزنك الحالي. |✅ | |
+| BodyScreen — weight input placeholder | placeholder | مثلاً: 85.5 |✅ | |
+| BodyScreen — save button | button-label | حفظ |✅ | |
+| BodyScreen — cancel button | button-label | إلغاء |✅ | |
+| BodyScreen — add weight button | button-label | + سجّل وزن جديد |✅ | |
+| BodyScreen — photos card label | section-label | الصور |✅ | |
+| BodyScreen — photos placeholder | placeholder | صور البداية والتقدم. قادم. |🟡 | |
+| BodyScreen — measurements card label | section-label | القياسات |✅ | |
+| BodyScreen — measurements placeholder | placeholder | الصدر، الخصر، الذراع. قادم. |✅ | |
+| BodyScreen — philosophy footer | philosophy | الجسم يتغير ببطء، ودليله مو دائماً في الميزان. |✅ | |
 
 ### AchievementsScreen.tsx
 
 | Location | Type | Current | Verdict | Note |
 |---|---|---|---|---|
-| AchievementsScreen — eyebrow | section-label | إنجازاتك | | |
-| AchievementsScreen — heading | heading | ما بنيته | | |
-| AchievementsScreen — stats card label | section-label | أرقامك | | |
-| AchievementsScreen — days unit | body-text | يوم | | |
-| AchievementsScreen — days description | body-text | أكملته من رحلتك | | |
-| AchievementsScreen — sessions unit | body-text | جلسة | | |
-| AchievementsScreen — sessions description | body-text | تمرين كاملة | | |
-| AchievementsScreen — streak unit | body-text | يوم متتالي | | |
-| AchievementsScreen — streak description (active) | body-text | انتظام، خطوة خطوة | | |
+| AchievementsScreen — eyebrow | section-label | إنجازاتك |✅ | |
+| AchievementsScreen — heading | heading | ما بنيته |🟡 | |
+| AchievementsScreen — stats card label | section-label | أرقامك |🟡 | |
+| AchievementsScreen — days unit | body-text | يوم |✅ | |
+| AchievementsScreen — days description | body-text | أكملته من رحلتك |✅ | |
+| AchievementsScreen — sessions unit | body-text | جلسة |✅ | |
+| AchievementsScreen — sessions description | body-text | تمرين كاملة |✅ | |
+| AchievementsScreen — streak unit | body-text | يوم متتالي |🟡 | |
+| AchievementsScreen — streak description (active) | body-text | انتظام، خطوة خطوة |🟡 | |
 | AchievementsScreen — streak description (zero) | body-text | ابدأ من اليوم | | |
-| AchievementsScreen — challenges card label | section-label | التحديات الشهرية | | |
-| AchievementsScreen — challenges locked text | body-text | 🔒 تفتح بعد إكمال الـ 12 أسبوع. | | |
-| AchievementsScreen — challenges description | body-text | 6 تحديات سنوياً، كل تحدي 30 يوم. كل تحدي تكمله يقلل سعر اشتراكك السنوي القادم. | | |
-| AchievementsScreen — discount card label | section-label | خصم التجديد | | |
-| AchievementsScreen — discount intro | body-text | يبدأ بعد إكمال الرحلة. | | |
-| AchievementsScreen — discount tier 1 | body-text | · خرّيج الرحلة: خصم 10% | | |
-| AchievementsScreen — discount tier 2 | body-text | · + تحدي واحد: خصم 20% | | |
-| AchievementsScreen — discount tier 3 | body-text | · + تحديين: خصم 30% | | |
-| AchievementsScreen — philosophy footer | philosophy | ما تبني يبقى. الباقي يضيع. | | |
+| AchievementsScreen — challenges card label | section-label | التحديات الشهرية |✅ | |
+| AchievementsScreen — challenges locked text | body-text | 🔒 تفتح بعد إكمال الـ 12 أسبوع. |✅ | |
+| AchievementsScreen — challenges description | body-text | 6 تحديات سنوياً، كل تحدي 30 يوم. كل تحدي تكمله يقلل سعر اشتراكك السنوي القادم. |🟡 | |
+| AchievementsScreen — discount card label | section-label | خصم التجديد |✅ | |
+| AchievementsScreen — discount intro | body-text | يبدأ بعد إكمال الرحلة. |✅ | |
+| AchievementsScreen — discount tier 1 | body-text | · خرّيج الرحلة: خصم 10% | ✅| |
+| AchievementsScreen — discount tier 2 | body-text | · + تحدي واحد: خصم 20% |✅ | |
+| AchievementsScreen — discount tier 3 | body-text | · + تحديين: خصم 30% |✅ | |
+| AchievementsScreen — philosophy footer | philosophy | ما تبني يبقى. الباقي يضيع. |🟡 | |
 
 ### AccountScreen.tsx
 
 | Location | Type | Current | Verdict | Note |
 |---|---|---|---|---|
-| AccountScreen — eyebrow | section-label | إعداداتك | | |
-| AccountScreen — heading | heading | حسابك | | |
-| AccountScreen — profile card label | section-label | ملفك | | |
-| AccountScreen — name field label | section-label | الاسم | | |
-| AccountScreen — age field label | section-label | العمر | | |
-| AccountScreen — age suffix | body-text | {n} سنة | | |
-| AccountScreen — journey since label | section-label | في الرحلة منذ | | |
-| AccountScreen — journey since suffix | body-text | يوم | | |
-| AccountScreen — subscription card label | section-label | الاشتراك | | |
-| AccountScreen — subscription plan name | body-text | النسخة التجريبية | | |
-| AccountScreen — subscription intro | body-text | تستخدم النسخة التجريبية حالياً. بعد الإطلاق، تختار من 3 خيارات: | | |
-| AccountScreen — plan option 1 | body-text | · سنوي — 120 د.ك (10 د.ك شهرياً) | | |
-| AccountScreen — plan option 2 | body-text | · رحلة كاملة — 45 د.ك (مرة وحدة) | | |
-| AccountScreen — plan option 3 | body-text | · 3 دفعات — 20 د.ك × 3 | | |
-| AccountScreen — subscription footer | body-text | تفاصيل الاشتراك قادمة. | | |
-| AccountScreen — time-off card label | section-label | وقت مستقطع | | |
-| AccountScreen — time-off description | body-text | الحياة تزحم. لو احتجت توقّف الرحلة لأي سبب — سفر، مرض، ظرف — نحفظ تقدمك وترجع متى ما تبي. | | |
-| AccountScreen — time-off button | button-label | أحتاج وقت مستقطع | | |
-| AccountScreen — settings card label | section-label | الإعدادات | | |
-| AccountScreen — notifications row | body-text | التنبيهات | | |
-| AccountScreen — notifications value | body-text | قادم | | |
-| AccountScreen — reminder row | body-text | وقت التذكير اليومي | | |
-| AccountScreen — reminder value | body-text | قادم | | |
-| AccountScreen — language row | body-text | اللغة | | |
-| AccountScreen — language value | body-text | عربي | | |
-| AccountScreen — support card label | section-label | الدعم | | |
-| AccountScreen — contact label | body-text | تواصل معنا | | |
-| AccountScreen — contact email | body-text | support@xcel40.app | | |
-| AccountScreen — FAQ label | body-text | الأسئلة الشائعة | | |
-| AccountScreen — FAQ value | body-text | قادم | | |
-| AccountScreen — prototype card label | section-label | للتجربة فقط | | |
-| AccountScreen — prototype description | body-text | هذي النسخة تجريبية. تقدر تعيد كل البيانات وتبدأ من الصفر. | | |
-| AccountScreen — reset link | button-label | مسح كل البيانات والبدء من جديد | | |
-| AccountScreen — confirm dialog | body-text | متأكد؟ كل تقدمك راح يمسح. | | |
-| AccountScreen — version footer | body-text | النسخة 0.1 — مرحلة التجربة. | | |
+| AccountScreen — eyebrow | section-label | إعداداتك |✅ | |
+| AccountScreen — heading | heading | حسابك |✅ | |
+| AccountScreen — profile card label | section-label | ملفك |✅ | |
+| AccountScreen — name field label | section-label | الاسم |✅ | |
+| AccountScreen — age field label | section-label | العمر |✅ | |
+| AccountScreen — age suffix | body-text | {n} سنة |✅ | |
+| AccountScreen — journey since label | section-label | في الرحلة منذ |🟡 | |
+| AccountScreen — journey since suffix | body-text | يوم |✅ | |
+| AccountScreen — subscription card label | section-label | الاشتراك |✅ | |
+| AccountScreen — subscription plan name | body-text | النسخة التجريبية |✅ | |
+| AccountScreen — subscription intro | body-text | تستخدم النسخة التجريبية حالياً. بعد الإطلاق، تختار من 3 خيارات: |✅ | |
+| AccountScreen — plan option 1 | body-text | · سنوي — 120 د.ك (10 د.ك شهرياً) |✅ | |
+| AccountScreen — plan option 2 | body-text | · رحلة كاملة — 45 د.ك (مرة وحدة) |✅ | |
+| AccountScreen — plan option 3 | body-text | · 3 دفعات — 20 د.ك × 3 |✅ | |
+| AccountScreen — subscription footer | body-text | تفاصيل الاشتراك قادمة. |🟡 | |
+| AccountScreen — time-off card label | section-label | وقت مستقطع |🟡 | |
+| AccountScreen — time-off description | body-text | الحياة تزحم. لو احتجت توقّف الرحلة لأي سبب — سفر، مرض، ظرف — نحفظ تقدمك وترجع متى ما تبي. |🟡 | |
+| AccountScreen — time-off button | button-label | أحتاج وقت مستقطع |🟡 | |
+| AccountScreen — settings card label | section-label | الإعدادات |✅ | |
+| AccountScreen — notifications row | body-text | التنبيهات |✅ | |
+| AccountScreen — notifications value | body-text | قادم |✅ | |
+| AccountScreen — reminder row | body-text | وقت التذكير اليومي |✅ | |
+| AccountScreen — reminder value | body-text | قادم |✅ | |
+| AccountScreen — language row | body-text | اللغة |✅ | |
+| AccountScreen — language value | body-text | عربي |✅ | |
+| AccountScreen — support card label | section-label | الدعم |✅ | |
+| AccountScreen — contact label | body-text | تواصل معنا |✅ | |
+| AccountScreen — contact email | body-text | support@xcel40.app |✅ | |
+| AccountScreen — FAQ label | body-text | الأسئلة الشائعة |✅ | |
+| AccountScreen — FAQ value | body-text | قادم |✅ | |
+| AccountScreen — prototype card label | section-label | للتجربة فقط |✅ | |
+| AccountScreen — prototype description | body-text | هذي النسخة تجريبية. تقدر تعيد كل البيانات وتبدأ من الصفر. |🟡 | |
+| AccountScreen — reset link | button-label | مسح كل البيانات والبدء من جديد |✅ | |
+| AccountScreen — confirm dialog | body-text | متأكد؟ كل تقدمك راح يمسح. |🟡 | |
+| AccountScreen — version footer | body-text | النسخة 0.1 — مرحلة التجربة. |✅ | |
 
 ---
 
