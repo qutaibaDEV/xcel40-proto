@@ -15,11 +15,11 @@ Each row below has:
 ### BottomNav.tsx
 | Location | Type | Current | Verdict | Note |
 |---|---|---|---|---|
-| BottomNav — Tab 1 | nav-label | اليوم | | |
-| BottomNav — Tab 2 | nav-label | الرحلة | | |
-| BottomNav — Tab 3 | nav-label | الجسم | | |
-| BottomNav — Tab 4 | nav-label | إنجازاتي | | |
-| BottomNav — Tab 5 | nav-label | حسابي | | |
+| BottomNav — Tab 1 | nav-label | اليوم |✅ |✅ |
+| BottomNav — Tab 2 | nav-label | الرحلة |✅ | |
+| BottomNav — Tab 3 | nav-label | الجسم |✅ | |
+| BottomNav — Tab 4 | nav-label | إنجازاتي |✅ | |
+| BottomNav — Tab 5 | nav-label | حسابي |✅ | |
 
 ### Card.tsx
 | Location | Type | Current | Verdict | Note |
