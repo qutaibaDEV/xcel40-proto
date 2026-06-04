@@ -255,100 +255,100 @@ Each row below has:
 
 | Location | Type | Current | Verdict | Note |
 |---|---|---|---|---|
-| Khaled — name | body-text | خالد العنزي | | |
-| Khaled — occupation | body-text | مدير في وزارة | | |
-| Khaled — family | body-text | متزوج، ثلاث عيال | | |
-| Khaled — area | body-text | الجابرية | | |
-| Yousef — name | body-text | يوسف الفهد | | |
-| Yousef — occupation | body-text | يدير عمله الخاص | | |
-| Yousef — family | body-text | أب لأربعة | | |
-| Yousef — area | body-text | السالمية | | |
-| Abdullah — name | body-text | عبدالله الصباح | | |
-| Abdullah — occupation | body-text | أستاذ جامعي / مستشار | | |
-| Abdullah — family | body-text | متزوج، عياله كبار | | |
-| Abdullah — area | body-text | السرة | | |
+| Khaled — name | body-text | خالد العنزي |✅ | |
+| Khaled — occupation | body-text | مدير في وزارة |✅ | |
+| Khaled — family | body-text | متزوج، ثلاث عيال |🟡 | |
+| Khaled — area | body-text | الجابرية |✅ | |
+| Yousef — name | body-text | يوسف الفهد |✅ | |
+| Yousef — occupation | body-text | يدير عمله الخاص |✅ | |
+| Yousef — family | body-text | أب لأربعة |🟡 | |
+| Yousef — area | body-text | السالمية |✅ | |
+| Abdullah — name | body-text | عبدالله الصباح |✅ | |
+| Abdullah — occupation | body-text | أستاذ جامعي / مستشار |✅ | |
+| Abdullah — family | body-text | متزوج، عياله كبار |🟡 | |
+| Abdullah — area | body-text | السرة |✅ | |
 
 ### onboarding.ts — Frames
 
 | Location | Type | Current | Verdict | Note |
 |---|---|---|---|---|
-| Frame 1 (Welcome) — body | heading | عمرك 40 وفوق. وجسمك يحاول يقول لك شي من زمان. جاهز تسمعه؟ | | |
-| Frame 1 (Welcome) — button | button-label | جاهز | | |
-| Frame 2 (Age) — title | heading | كم عمرك؟ | | |
-| Frame 2 (Age) — body | body-text | عشان نتأكد إن هذا التطبيق مصمم لك تحديداً. | | |
-| Frame 2 (Age) — button | button-label | كمّل | | |
-| Frame 4 (Result) — title | section-label | نتيجتك | | |
-| Frame 4 (Result) — body | heading | إنت مو في وضع سيء. إنت في وضع متوقف. جسمك ينتظر إشارة بس. | | |
-| Frame 4 (Result) — button | button-label | وش الإشارة؟ | | |
-| Frame 6 (Post-journey) — body | heading | سويتها. أول يوم خلص. شوفك بكرة. | | |
-| Frame 6 (Post-journey) — button | button-label | تمام | | |
+| Frame 1 (Welcome) — body | heading | عمرك 40 وفوق. وجسمك يحاول يقول لك شي من زمان. جاهز تسمعه؟ |✅ | |
+| Frame 1 (Welcome) — button | button-label | جاهز |✅ | |
+| Frame 2 (Age) — title | heading | كم عمرك؟ |✅ | |
+| Frame 2 (Age) — body | body-text | عشان نتأكد إن هذا التطبيق مصمم لك تحديداً. |✅ | |
+| Frame 2 (Age) — button | button-label | كمّل |🟡 | |
+| Frame 4 (Result) — title | section-label | نتيجتك |🟡 | |
+| Frame 4 (Result) — body | heading | إنت مو في وضع سيء. إنت في وضع متوقف. جسمك ينتظر إشارة بس. |🟡 | |
+| Frame 4 (Result) — button | button-label | وش الإشارة؟ |🟡 | |
+| Frame 6 (Post-journey) — body | heading | سويتها. أول يوم خلص. شوفك بكرة. |🟡 | |
+| Frame 6 (Post-journey) — button | button-label | تمام |✅ | |
 
 ### onboarding.ts — Assessment Questions
 
 | Location | Type | Current | Verdict | Note |
 |---|---|---|---|---|
-| Q1 — question | body-text | تقدر تصعد 3 أدوار درج بدون ما تلهث؟ | | |
-| Q1 — option A | button-label | أيه، عادي | | |
-| Q1 — option B | button-label | أقدر بس ألهث شوي | | |
-| Q1 — option C | button-label | صعب عليّ | | |
-| Q2 — question | body-text | كم ساعة تنام فعلاً في الليل؟ | | |
-| Q2 — option A | button-label | 7 ساعات أو أكثر | | |
-| Q2 — option B | button-label | بين 5 و 7 ساعات | | |
-| Q2 — option C | button-label | أقل من 5 ساعات | | |
-| Q3 — question | body-text | آخر مرة حسيت بجسمك خفيف، متى؟ | | |
-| Q3 — option A | button-label | قريب، الأسبوع اللي راح | | |
-| Q3 — option B | button-label | من أشهر | | |
-| Q3 — option C | button-label | من سنين | | |
-| Q4 — question | body-text | لما تلعب مع عيالك أو تروح مشوار طويل، تلهث بسرعة؟ | | |
-| Q4 — option A | button-label | لا، طبيعي | | |
-| Q4 — option B | button-label | شوي | | |
-| Q4 — option C | button-label | نعم، أتعب مرة | | |
-| Q5 — question | body-text | تحس بألم في الظهر أو الركب باستمرار؟ | | |
-| Q5 — option A | button-label | لا أبداً | | |
-| Q5 — option B | button-label | أحياناً | | |
-| Q5 — option C | button-label | دايماً | | |
+| Q1 — question | body-text | تقدر تصعد 3 أدوار درج بدون ما تلهث؟ |🟡 | |
+| Q1 — option A | button-label | أيه، عادي |🟡 | |
+| Q1 — option B | button-label | أقدر بس ألهث شوي |🟡 | |
+| Q1 — option C | button-label | صعب عليّ |🟡 | |
+| Q2 — question | body-text | كم ساعة تنام فعلاً في الليل؟ |✅ | |
+| Q2 — option A | button-label | 7 ساعات أو أكثر |✅ | |
+| Q2 — option B | button-label | بين 5 و 7 ساعات |✅ | |
+| Q2 — option C | button-label | أقل من 5 ساعات |✅ | |
+| Q3 — question | body-text | آخر مرة حسيت بجسمك خفيف، متى؟ |✅ | |
+| Q3 — option A | button-label | قريب، الأسبوع اللي راح |🟡 | |
+| Q3 — option B | button-label | من أشهر |🟡 | |
+| Q3 — option C | button-label | من سنين |✅ | |
+| Q4 — question | body-text | لما تلعب مع عيالك أو تروح مشوار طويل، تلهث بسرعة؟ |🟡 | |
+| Q4 — option A | button-label | لا، طبيعي |✅ | |
+| Q4 — option B | button-label | شوي |🟡 | |
+| Q4 — option C | button-label | نعم، أتعب مرة |🟡 | |
+| Q5 — question | body-text | تحس بألم في الظهر أو الركب باستمرار؟ |✅ | |
+| Q5 — option A | button-label | لا أبداً |✅ | |
+| Q5 — option B | button-label | أحياناً |✅ | |
+| Q5 — option C | button-label | دايماً |✅ | |
 
 ### journey.ts — Phases
 
 | Location | Type | Current | Verdict | Note |
 |---|---|---|---|---|
-| Phase 1 — name | section-label | البداية | | |
-| Phase 1 — description | body-text | الأسابيع الأربعة الأولى. تعرّف على جسمك من جديد. | | |
-| Phase 2 — name | section-label | الاستمرار | | |
-| Phase 2 — description | body-text | الأسابيع 5 إلى 8. تثبيت العادة. | | |
-| Phase 3 — name | section-label | بداية التغيير | | |
-| Phase 3 — description | body-text | الأسابيع 9 إلى 12. الجسم يستجيب. | | |
-| Phase 4 — name | section-label | ما بعد | | |
-| Phase 4 — description | body-text | بعد إكمال الرحلة. تحديات شهرية وحياة جديدة. | | |
+| Phase 1 — name | section-label | البداية |✅ | |
+| Phase 1 — description | body-text | الأسابيع الأربعة الأولى. تعرّف على جسمك من جديد. |✅ | |
+| Phase 2 — name | section-label | الاستمرار |✅ | |
+| Phase 2 — description | body-text | الأسابيع 5 إلى 8. تثبيت العادة. |✅ | |
+| Phase 3 — name | section-label | بداية التغيير |✅ | |
+| Phase 3 — description | body-text | الأسابيع 9 إلى 12. الجسم يستجيب. |✅ | |
+| Phase 4 — name | section-label | ما بعد |🟡 | |
+| Phase 4 — description | body-text | بعد إكمال الرحلة. تحديات شهرية وحياة جديدة. |🟡 | |
 
 ### journey.ts — Week Titles & Descriptions
 
 | Location | Type | Current | Verdict | Note |
 |---|---|---|---|---|
-| Week 1 — title | section-label | الاعتراف | | |
-| Week 1 — description | body-text | من سنين تأجل البداية. اليوم. | | |
-| Week 2 — title | section-label | لقاء الجسم | | |
-| Week 2 — description | body-text | تعرّف على جسمك من جديد. | | |
-| Week 3 — title | section-label | الحركة الأولى | | |
-| Week 3 — description | body-text | تمرين كامل، 15 دقيقة. | | |
-| Week 4 — title | section-label | العادة تبدأ | | |
-| Week 4 — description | body-text | الجسم بدأ يتذكر. | | |
-| Week 5 — title | section-label | الانتظام | | |
-| Week 5 — description | body-text | مو يومين في الأسبوع، طول الأسبوع. | | |
-| Week 6 — title | section-label | الإيقاع | | |
-| Week 6 — description | body-text | صار جزء من حياتك. | | |
-| Week 7 — title | section-label | التحدي الأول | | |
-| Week 7 — description | body-text | كسر التراكم. | | |
-| Week 8 — title | section-label | النقطة الفاصلة | | |
-| Week 8 — description | body-text | نصف الرحلة. | | |
-| Week 9 — title | section-label | استجابة الجسم | | |
-| Week 9 — description | body-text | النتائج بدأت تظهر. | | |
-| Week 10 — title | section-label | الثقة | | |
-| Week 10 — description | body-text | تعرف إنك تقدر. | | |
-| Week 11 — title | section-label | الذروة | | |
-| Week 11 — description | body-text | أعلى نقطة في الرحلة. | | |
-| Week 12 — title | section-label | البداية الجديدة | | |
-| Week 12 — description | body-text | مو نهاية، بداية. | | |
+| Week 1 — title | section-label | الاعتراف |🟡 | |
+| Week 1 — description | body-text | من سنين تأجل البداية. اليوم. |🟡 | |
+| Week 2 — title | section-label | لقاء الجسم |🟡 | |
+| Week 2 — description | body-text | تعرّف على جسمك من جديد. |🟡 | |
+| Week 3 — title | section-label | الحركة الأولى |🟡 | |
+| Week 3 — description | body-text | تمرين كامل، 15 دقيقة. |✅ | |
+| Week 4 — title | section-label | العادة تبدأ |🟡 | |
+| Week 4 — description | body-text | الجسم بدأ يتذكر. |✅ | |
+| Week 5 — title | section-label | الانتظام |✅ | |
+| Week 5 — description | body-text | مو يومين في الأسبوع، طول الأسبوع. |✅ | |
+| Week 6 — title | section-label | الإيقاع |✅ | |
+| Week 6 — description | body-text | صار جزء من حياتك. |✅ | |
+| Week 7 — title | section-label | التحدي الأول |✅ | |
+| Week 7 — description | body-text | كسر التراكم. |🟡 | |
+| Week 8 — title | section-label | النقطة الفاصلة |✅ | |
+| Week 8 — description | body-text | نصف الرحلة. |✅ | |
+| Week 9 — title | section-label | استجابة الجسم |✅ | |
+| Week 9 — description | body-text | النتائج بدأت تظهر. |✅ | |
+| Week 10 — title | section-label | الثقة |✅ | |
+| Week 10 — description | body-text | تعرف إنك تقدر. |🟡 | |
+| Week 11 — title | section-label | الذروة |✅ | |
+| Week 11 — description | body-text | أعلى نقطة في الرحلة. |✅ | |
+| Week 12 — title | section-label | البداية الجديدة |✅ | |
+| Week 12 — description | body-text | مو نهاية، بداية. |🟡 | |
 
 ### week1.ts — Day 1 (الاعتراف) — Workout Day
 
