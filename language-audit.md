@@ -381,25 +381,25 @@ Each row below has:
 
 | Location | Type | Current | Verdict | Note |
 |---|---|---|---|---|
-| Day 2 — title | heading | لقاء الجسم | | |
-| Day 2 / Khaled — scene | scene | أمس مشيت 10 دقائق. ربما تحس بشي بسيط في رجولك اليوم. هذا مو ألم، هذا جسمك يقول لك "أها، رجعت تتذكرني؟". | | |
-| Day 2 / Khaled — brain line 1 | dialog-line | تعبت من عشر دقائق؟ يا للعار. | | |
-| Day 2 / Khaled — body line 1 | dialog-line | ما تعبت. أنا تكلمت. أعطيك إشارة إن في عضلات نسيتها. | | |
-| Day 2 / Khaled — brain line 2 | dialog-line | يعني فيه أمل؟ | | |
-| Day 2 / Khaled — body line 2 | dialog-line | فيه أكثر مما تتوقع. بس الأمل ما يجي بالحماس، يجي بالاستمرار. | | |
-| Day 2 / Khaled — challenge | challenge | قبل النوم، حط يدك على بطنك وعد 10 أنفاس عميقة. | | |
-| Day 2 / Yousef — scene | scene | في كل مكان تروحه اليوم، انتبه: كم مرة قلت لنفسك "ما عندي وقت"؟ راح تكتشف إنك تقولها لأشياء ثانوية، بينما الأشياء المهمة (زي صحتك) تنتظر "وقت فاضي" اللي ما يجي. | | |
-| Day 2 / Yousef — brain line 1 | dialog-line | ما عندي وقت، صدقني. | | |
-| Day 2 / Yousef — body line 1 | dialog-line | تكلمت في التلفون ساعة أمس مع صاحبك. الوقت موجود، الأولوية مفقودة. | | |
-| Day 2 / Yousef — brain line 2 | dialog-line | لكن هذا ترفيه أحتاجه. | | |
-| Day 2 / Yousef — body line 2 | dialog-line | اللي تحتاجه، أنا. لما أتعب، كل شي ينهار. | | |
-| Day 2 / Yousef — challenge | challenge | شيل تطبيق وحد ضائع وقتك من تلفونك. فقط واحد. اليوم. | | |
-| Day 2 / Abdullah — scene | scene | في عمرك، الجسم ما يطلب نفس اللي كان يطلبه قبل 20 سنة. هو يطلب لطف، انتظام، إصغاء. اليوم، بدل ما تتعبه، اسمعه. | | |
-| Day 2 / Abdullah — brain line 1 | dialog-line | الرياضة المنتظمة تحتاج طاقة ما عندي. | | |
-| Day 2 / Abdullah — body line 1 | dialog-line | الرياضة هي اللي تعطيك الطاقة. مو العكس. هذا "إيقاع دائري" يعرفه الأطباء. | | |
-| Day 2 / Abdullah — brain line 2 | dialog-line | مثل ماذا؟ | | |
-| Day 2 / Abdullah — body line 2 | dialog-line | ابحث "Exercise Energy Paradox". راح تجد علم نظيف. | | |
-| Day 2 / Abdullah — challenge | challenge | اقرأ مقال "Exercise Energy Paradox" من Harvard Health. | | |
+| Day 2 — title | heading | لقاء الجسم |🟡 | |
+| Day 2 / Khaled — scene | scene | أمس مشيت 10 دقائق. ربما تحس بشي بسيط في رجولك اليوم. هذا مو ألم، هذا جسمك يقول لك "أها، رجعت تتذكرني؟". |🟡 | |
+| Day 2 / Khaled — brain line 1 | dialog-line | تعبت من عشر دقائق؟ يا للعار. |🟡 | |
+| Day 2 / Khaled — body line 1 | dialog-line | ما تعبت. أنا تكلمت. أعطيك إشارة إن في عضلات نسيتها. |🟡 | |
+| Day 2 / Khaled — brain line 2 | dialog-line | يعني فيه أمل؟ |✅ | |
+| Day 2 / Khaled — body line 2 | dialog-line | فيه أكثر مما تتوقع. بس الأمل ما يجي بالحماس، يجي بالاستمرار. |🟡 | |
+| Day 2 / Khaled — challenge | challenge | قبل النوم، حط يدك على بطنك وعد 10 أنفاس عميقة. |🟡 | |
+| Day 2 / Yousef — scene | scene | في كل مكان تروحه اليوم، انتبه: كم مرة قلت لنفسك "ما عندي وقت"؟ راح تكتشف إنك تقولها لأشياء ثانوية، بينما الأشياء المهمة (زي صحتك) تنتظر "وقت فاضي" اللي ما يجي. |🟡 | |
+| Day 2 / Yousef — brain line 1 | dialog-line | ما عندي وقت، صدقني. |🟡 | |
+| Day 2 / Yousef — body line 1 | dialog-line | تكلمت في التلفون ساعة أمس مع صاحبك. الوقت موجود، الأولوية مفقودة. |🟡 | |
+| Day 2 / Yousef — brain line 2 | dialog-line | لكن هذا ترفيه أحتاجه. |🟡 | |
+| Day 2 / Yousef — body line 2 | dialog-line | اللي تحتاجه، أنا. لما أتعب، كل شي ينهار. |🟡 | |
+| Day 2 / Yousef — challenge | challenge | شيل تطبيق وحد ضائع وقتك من تلفونك. فقط واحد. اليوم. |🟡 | |
+| Day 2 / Abdullah — scene | scene | في عمرك، الجسم ما يطلب نفس اللي كان يطلبه قبل 20 سنة. هو يطلب لطف، انتظام، إصغاء. اليوم، بدل ما تتعبه، اسمعه. |🟡 | |
+| Day 2 / Abdullah — brain line 1 | dialog-line | الرياضة المنتظمة تحتاج طاقة ما عندي. |🟡 | |
+| Day 2 / Abdullah — body line 1 | dialog-line | الرياضة هي اللي تعطيك الطاقة. مو العكس. هذا "إيقاع دائري" يعرفه الأطباء. |🟡 | |
+| Day 2 / Abdullah — brain line 2 | dialog-line | مثل ماذا؟ |✅ | |
+| Day 2 / Abdullah — body line 2 | dialog-line | ابحث "Exercise Energy Paradox". راح تجد علم نظيف. |🟡 | |
+| Day 2 / Abdullah — challenge | challenge | اقرأ مقال "Exercise Energy Paradox" من Harvard Health. |✅ | |
 
 ### week1.ts — Day 3 (تمرين كامل أول) — Workout Day
 
