@@ -444,68 +444,68 @@ Each row below has:
 
 | Location | Type | Current | Verdict | Note |
 |---|---|---|---|---|
-| Day 5 — title | heading | التمرين الثاني | | |
-| Day 5 / Khaled — scene | scene | اليوم الثاني تمرين هذا الأسبوع. لو سويته، تكون أكملت 67% من تمارين الأسبوع. هذا أكثر من معظم الناس اللي يحكون عن الرياضة ولا يبدؤونها. | | |
-| Day 5 / Khaled — brain line 1 | dialog-line | قعدت يومين بدون تمرين، الموضوع يصير صعب. | | |
-| Day 5 / Khaled — body line 1 | dialog-line | الراحة جزء من البرنامج. مو فشل، تصميم. | | |
-| Day 5 / Khaled — challenge | challenge | سو التمرين قبل أكل العشا. | | |
-| Day 5 / Khaled — workout | workout-text | نفس تمرين اليوم 3، بإضافة: 10 دقائق مشي حقيقي. المجموع 10 دقائق فعلية. | | |
-| Day 5 / Yousef — scene | scene | يوم ضاغط، اجتماعات، اتصالات، أزمات صغيرة. وفي وسط كل هذا، التمرين موعد ثابت. ما يلغى، ما يأجل. | | |
-| Day 5 / Yousef — brain line 1 | dialog-line | اليوم استثناء. الأمور خرجت عن السيطرة. | | |
-| Day 5 / Yousef — body line 1 | dialog-line | الأمور دائماً تخرج عن السيطرة. لو انتظرت اليوم الهادي، ما راح تتمرن أبداً. | | |
-| Day 5 / Yousef — challenge | challenge | سو التمرين، ولو اضطريت تقسّمه ثلاث مرات على اليوم. | | |
-| Day 5 / Yousef — workout | workout-text | نفس تمرين اليوم 3 + 10 دقائق مشي. تقدر تقسمها كيف ما تبي. | | |
-| Day 5 / Abdullah — scene | scene | بدأت تلاحظ التفاصيل: نومك أحسن شوي، صبرك أطول شوي. هذا في 4 أيام فقط. تخيل الفرق بعد 4 شهور. لكن لا تتخيل، فقط استمر. | | |
-| Day 5 / Abdullah — brain line 1 | dialog-line | التغيير سريع جداً، يمكن ما هو حقيقي. | | |
-| Day 5 / Abdullah — body line 1 | dialog-line | "Acute Effects" — تأثيرات فورية للحركة على المزاج والنوم. علم معروف من الستينات. | | |
-| Day 5 / Abdullah — challenge | challenge | اكتب 3 أسطر: ما اللي تغير عندك من بداية الأسبوع؟ | | |
-| Day 5 / Abdullah — workout | workout-text | نفس تمرين اليوم 3 + 10 دقائق مشي تأملي. ركز على الحس، مو على العدد. | | |
+| Day 5 — title | heading | التمرين الثاني |✅ | |
+| Day 5 / Khaled — scene | scene | اليوم الثاني تمرين هذا الأسبوع. لو سويته، تكون أكملت 67% من تمارين الأسبوع. هذا أكثر من معظم الناس اللي يحكون عن الرياضة ولا يبدؤونها. |🟡 | |
+| Day 5 / Khaled — brain line 1 | dialog-line | قعدت يومين بدون تمرين، الموضوع يصير صعب. |🟡 | |
+| Day 5 / Khaled — body line 1 | dialog-line | الراحة جزء من البرنامج. مو فشل، تصميم. |🟡 | |
+| Day 5 / Khaled — challenge | challenge | سو التمرين قبل أكل العشا. |🟡 | |
+| Day 5 / Khaled — workout | workout-text | نفس تمرين اليوم 3، بإضافة: 10 دقائق مشي حقيقي. المجموع 10 دقائق فعلية. |🟡 | |
+| Day 5 / Yousef — scene | scene | يوم ضاغط، اجتماعات، اتصالات، أزمات صغيرة. وفي وسط كل هذا، التمرين موعد ثابت. ما يلغى، ما يأجل. |🟡 | |
+| Day 5 / Yousef — brain line 1 | dialog-line | اليوم استثناء. الأمور خرجت عن السيطرة. |🟡 | |
+| Day 5 / Yousef — body line 1 | dialog-line | الأمور دائماً تخرج عن السيطرة. لو انتظرت اليوم الهادي، ما راح تتمرن أبداً. |🟡 | |
+| Day 5 / Yousef — challenge | challenge | سو التمرين، ولو اضطريت تقسّمه ثلاث مرات على اليوم. |🟡 | |
+| Day 5 / Yousef — workout | workout-text | نفس تمرين اليوم 3 + 10 دقائق مشي. تقدر تقسمها كيف ما تبي. |🟡 | |
+| Day 5 / Abdullah — scene | scene | بدأت تلاحظ التفاصيل: نومك أحسن شوي، صبرك أطول شوي. هذا في 4 أيام فقط. تخيل الفرق بعد 4 شهور. لكن لا تتخيل، فقط استمر. |✅ | |
+| Day 5 / Abdullah — brain line 1 | dialog-line | التغيير سريع جداً، يمكن ما هو حقيقي. |🟡 | |
+| Day 5 / Abdullah — body line 1 | dialog-line | "Acute Effects" — تأثيرات فورية للحركة على المزاج والنوم. علم معروف من الستينات. |🟡 | |
+| Day 5 / Abdullah — challenge | challenge | اكتب 3 أسطر: ما اللي تغير عندك من بداية الأسبوع؟ |🟡 | |
+| Day 5 / Abdullah — workout | workout-text | نفس تمرين اليوم 3 + 10 دقائق مشي تأملي. ركز على الحس، مو على العدد. |🟡 | |
 
 ### week1.ts — Day 6 (مواجهة الانقطاع) — Rest Day
 
 | Location | Type | Current | Verdict | Note |
 |---|---|---|---|---|
-| Day 6 — title | heading | مواجهة الانقطاع | | |
-| Day 6 / Khaled — scene | scene | يوم خميس. ديوانية الليلة. كل العزائم اللي تحب. هذا اختبار حقيقي: هل أنت في رحلة، أم في تجربة؟ | | |
-| Day 6 / Khaled — brain line 1 | dialog-line | مرة وحدة ما تضر. اليوم خاص. | | |
-| Day 6 / Khaled — body line 1 | dialog-line | مرة وحدة تتحول لكل خميس بسرعة. القرار الحين، مو وقت العزيمة. | | |
-| Day 6 / Khaled — challenge | challenge | في الديوانية الليلة، اشرب ماء بعد كل كاسة شاي أو قهوة. | | |
-| Day 6 / Yousef — scene | scene | عطلة الأسبوع، شغل بزنس، عزائم، أطفال يبغونك. كل أسباب التوقف موجودة. لكن أسبوعك الأول لا يحسب كأسبوع لو سقطت في عطلته. | | |
-| Day 6 / Yousef — brain line 1 | dialog-line | العطلة للراحة. أبدأ الجد يوم الأحد. | | |
-| Day 6 / Yousef — body line 1 | dialog-line | الأحد ما يأتي. كل أحد فيه عذر جديد. اليوم، حتى لو 5 دقائق. | | |
-| Day 6 / Yousef — challenge | challenge | حتى لو اليوم متعب، أمشي 5 دقائق بالليل. | | |
-| Day 6 / Abdullah — scene | scene | اليوم السادس، والعقل بدأ يبحث عن أسباب للتوقف. هذي ظاهرة معروفة في علم السلوك. مهمتك مو إنك ما تفكر فيها، مهمتك إنك تعرفها وتمشي. | | |
-| Day 6 / Abdullah — brain line 1 | dialog-line | لاحظ، بدأت تجد أعذار. هذا طبيعي؟ | | |
-| Day 6 / Abdullah — body line 1 | dialog-line | نعم. اسمها "Quitter's Day". تجي بين اليوم 5 و 10. اللي يعديها يكمل، اللي يصدقها يقف. | | |
-| Day 6 / Abdullah — challenge | challenge | اكتب 3 أعذار جاءت لك اليوم. ثم اكتب رد لكل عذر. | | |
+| Day 6 — title | heading | مواجهة الانقطاع |🟡 | |
+| Day 6 / Khaled — scene | scene | يوم خميس. ديوانية الليلة. كل العزائم اللي تحب. هذا اختبار حقيقي: هل أنت في رحلة، أم في تجربة؟ |🟡 | |
+| Day 6 / Khaled — brain line 1 | dialog-line | مرة وحدة ما تضر. اليوم خاص. |🟡 | |
+| Day 6 / Khaled — body line 1 | dialog-line | مرة وحدة تتحول لكل خميس بسرعة. القرار الحين، مو وقت العزيمة. |🟡 | |
+| Day 6 / Khaled — challenge | challenge | في الديوانية الليلة، اشرب ماء بعد كل كاسة شاي أو قهوة. |🟡 | |
+| Day 6 / Yousef — scene | scene | عطلة الأسبوع، شغل بزنس، عزائم، أطفال يبغونك. كل أسباب التوقف موجودة. لكن أسبوعك الأول لا يحسب كأسبوع لو سقطت في عطلته. |🟡 | |
+| Day 6 / Yousef — brain line 1 | dialog-line | العطلة للراحة. أبدأ الجد يوم الأحد. |🟡 | |
+| Day 6 / Yousef — body line 1 | dialog-line | الأحد ما يأتي. كل أحد فيه عذر جديد. اليوم، حتى لو 5 دقائق. |🟡 | |
+| Day 6 / Yousef — challenge | challenge | حتى لو اليوم متعب، أمشي 5 دقائق بالليل. |🟡 | |
+| Day 6 / Abdullah — scene | scene | اليوم السادس، والعقل بدأ يبحث عن أسباب للتوقف. هذي ظاهرة معروفة في علم السلوك. مهمتك مو إنك ما تفكر فيها، مهمتك إنك تعرفها وتمشي. |🟡 | |
+| Day 6 / Abdullah — brain line 1 | dialog-line | لاحظ، بدأت تجد أعذار. هذا طبيعي؟ |🟡 | |
+| Day 6 / Abdullah — body line 1 | dialog-line | نعم. اسمها "Quitter's Day". تجي بين اليوم 5 و 10. اللي يعديها يكمل، اللي يصدقها يقف. |🟡 | |
+| Day 6 / Abdullah — challenge | challenge | اكتب 3 أعذار جاءت لك اليوم. ثم اكتب رد لكل عذر. |✅ | |
 
 ### week1.ts — Day 7 (أكملت أول أسبوع) — Workout Day
 
 | Location | Type | Current | Verdict | Note |
 |---|---|---|---|---|
-| Day 7 — title | heading | أكملت أول أسبوع | | |
-| Day 7 / Khaled — scene | scene | سبعة أيام. ما هو رقم كبير، لكنه أكبر من معظم محاولاتك السابقة. الفرق إنك ما حاولت تغيّر حياتك. حاولت تتحرك 10 دقائق. | | |
-| Day 7 / Khaled — brain line 1 | dialog-line | أوكي، بس هذا أول أسبوع. الباقي صعب. | | |
-| Day 7 / Khaled — body line 1 | dialog-line | ولا الباقي صعب، الصعب اللي خلصته. القرار الأول هو القرار الأصعب. | | |
-| Day 7 / Khaled — challenge | challenge | قف أمام المرايا. قل: "أكملت أول أسبوع." مهما كان شعورك. | | |
-| Day 7 / Khaled — workout | workout-text | مشي خفيف 10 دقائق + 5 دقائق تنفس عميق. اليوم احتفال، مو إنجاز. | | |
-| Day 7 / Yousef — scene | scene | في حياتك المتقلبة، أكملت أسبوع كامل من شي ثابت. هذا الإنجاز ما هو في التمارين، هو في إثبات إنك تقدر تثبّت شي في وسط الفوضى. | | |
-| Day 7 / Yousef — brain line 1 | dialog-line | زين، الحين قعدة وأرتاح. | | |
-| Day 7 / Yousef — body line 1 | dialog-line | الراحة جزء من البرنامج، بس الراحة الذكية. لا تكسر الإيقاع، طوّره. | | |
-| Day 7 / Yousef — challenge | challenge | اكتب على الواتساب لشخص واحد تثق فيه: "بديت رحلة 12 أسبوع." | | |
-| Day 7 / Yousef — workout | workout-text | مشي خفيف 10 دقائق في أي مكان مريح لك. احتفل بالاستمرار. | | |
-| Day 7 / Abdullah — scene | scene | في عمرك، أسبوع منتظم يساوي شهرين متقطعين عند الشباب. أنت ما عاد تجرب، أنت تبني. والبناء يبدأ بطوبة وحدة. | | |
-| Day 7 / Abdullah — brain line 1 | dialog-line | هذا توّه أول 8% من الرحلة. الطريق طويل. | | |
-| Day 7 / Abdullah — body line 1 | dialog-line | صح، 8%. لكن أول 8% هي الأصعب نفسياً. الباقي 92% أسهل لأنك ما عاد تبدأ، أنت تستمر. | | |
-| Day 7 / Abdullah — challenge | challenge | اكتب فقرة قصيرة: ماذا تعلمت عن نفسي هذا الأسبوع؟ | | |
-| Day 7 / Abdullah — workout | workout-text | 10 دقائق مشي تأملي. تأمل إنجازك بدون كبرياء، بدون تواضع زائد. واقع فقط. | | |
+| Day 7 — title | heading | أكملت أول أسبوع |✅ | |
+| Day 7 / Khaled — scene | scene | سبعة أيام. ما هو رقم كبير، لكنه أكبر من معظم محاولاتك السابقة. الفرق إنك ما حاولت تغيّر حياتك. حاولت تتحرك 10 دقائق. |✅ | |
+| Day 7 / Khaled — brain line 1 | dialog-line | أوكي، بس هذا أول أسبوع. الباقي صعب. |✅ | |
+| Day 7 / Khaled — body line 1 | dialog-line | ولا الباقي صعب، الصعب اللي خلصته. القرار الأول هو القرار الأصعب. |🟡 | |
+| Day 7 / Khaled — challenge | challenge | قف أمام المرايا. قل: "أكملت أول أسبوع." مهما كان شعورك. |🟡 | |
+| Day 7 / Khaled — workout | workout-text | مشي خفيف 10 دقائق + 5 دقائق تنفس عميق. اليوم احتفال، مو إنجاز. |🟡 | |
+| Day 7 / Yousef — scene | scene | في حياتك المتقلبة، أكملت أسبوع كامل من شي ثابت. هذا الإنجاز ما هو في التمارين، هو في إثبات إنك تقدر تثبّت شي في وسط الفوضى. |✅ | |
+| Day 7 / Yousef — brain line 1 | dialog-line | زين، الحين قعدة وأرتاح. |🟡 | |
+| Day 7 / Yousef — body line 1 | dialog-line | الراحة جزء من البرنامج، بس الراحة الذكية. لا تكسر الإيقاع، طوّره. |🟡 | |
+| Day 7 / Yousef — challenge | challenge | اكتب على الواتساب لشخص واحد تثق فيه: "بديت رحلة 12 أسبوع." |🟡 | |
+| Day 7 / Yousef — workout | workout-text | مشي خفيف 10 دقائق في أي مكان مريح لك. احتفل بالاستمرار. |✅ | |
+| Day 7 / Abdullah — scene | scene | في عمرك، أسبوع منتظم يساوي شهرين متقطعين عند الشباب. أنت ما عاد تجرب، أنت تبني. والبناء يبدأ بطوبة وحدة. |🟡 | |
+| Day 7 / Abdullah — brain line 1 | dialog-line | هذا توّه أول 8% من الرحلة. الطريق طويل. |🟡 | |
+| Day 7 / Abdullah — body line 1 | dialog-line | صح، 8%. لكن أول 8% هي الأصعب نفسياً. الباقي 92% أسهل لأنك ما عاد تبدأ، أنت تستمر. |🟡 | |
+| Day 7 / Abdullah — challenge | challenge | اكتب فقرة قصيرة: ماذا تعلمت عن نفسي هذا الأسبوع؟ |🟡 | |
+| Day 7 / Abdullah — workout | workout-text | 10 دقائق مشي تأملي. تأمل إنجازك بدون كبرياء، بدون تواضع زائد. واقع فقط. |🟡 | |
 
 ### reactions.ts — Negative Case Responses
 
 | Location | Type | Current | Verdict | Note |
 |---|---|---|---|---|
-| missed-one-day — message | body-text | يوم وحد ما يكسر شي. الرحلة مو سلسلة تنكسر، طريق ترجع له وقت ما تبي. كرت اليوم ينتظرك. | | |
-| missed-one-day — primary action | button-label | افتح كرت اليوم | | |
+| missed-one-day — message | body-text | يوم وحد ما يكسر شي. الرحلة مو سلسلة تنكسر، طريق ترجع له وقت ما تبي. كرت اليوم ينتظرك. |🟡 | |
+| missed-one-day — primary action | button-label | افتح كرت اليوم |✅ | |
 | missed-few-days — message | body-text | صار لك كم يوم. عادي، الحياة تزحم. السؤال مو ليش وقفت، السؤال تبي ترجع؟ لو إيه، خلنا نبدأ من وين وقفت، مو من الصفر. | | |
 | missed-few-days — primary action | button-label | أكمل من وين وقفت | | |
 | missed-few-days — secondary action | button-label | ابدأ الأسبوع من جديد | | |
