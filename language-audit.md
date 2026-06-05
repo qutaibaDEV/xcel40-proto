@@ -506,32 +506,32 @@ Each row below has:
 |---|---|---|---|---|
 | missed-one-day — message | body-text | يوم وحد ما يكسر شي. الرحلة مو سلسلة تنكسر، طريق ترجع له وقت ما تبي. كرت اليوم ينتظرك. |🟡 | |
 | missed-one-day — primary action | button-label | افتح كرت اليوم |✅ | |
-| missed-few-days — message | body-text | صار لك كم يوم. عادي، الحياة تزحم. السؤال مو ليش وقفت، السؤال تبي ترجع؟ لو إيه، خلنا نبدأ من وين وقفت، مو من الصفر. | | |
-| missed-few-days — primary action | button-label | أكمل من وين وقفت | | |
-| missed-few-days — secondary action | button-label | ابدأ الأسبوع من جديد | | |
-| missed-week — message | body-text | صار لك أسبوع. ما راح أزعجك أكثر، بس أبيك تعرف إن مكانك محفوظ. لو حبيت ترجع، التطبيق هنا. | | |
-| missed-week — primary action | button-label | رجعت | | |
-| failed-workout — message | body-text | ما قدرت تكمل؟ معناها إنك حاولت. الحين تعرف حدّك الحقيقي، وهذي معلومة ذهب. بكرة نبدأ من تحت حدّك بشوي، ونبني. | | |
-| failed-workout — primary action | button-label | تمام | | |
-| frustrated — message | body-text | تحس إنك ما تقدمت؟ افتح شاشة إنجازاتك. الأسبوع اللي راح، نمت أحسن 3 ليالي، تحركت 5 مرات، وأنفاسك صارت أعمق. النتيجة مو دايم في المرايا، أحياناً في إحساسك. | | |
-| frustrated — primary action | button-label | افتح إنجازاتي | | |
-| travel — title | heading | مسافر؟ تمام. | | |
-| travel — message | body-text | عندك خياران. وضع خفيف يكمل معاك بتمارين 5 دقائق، أو وقفة كاملة ترجع منها لنفس النقطة. | | |
-| travel — primary action | button-label | وضع خفيف | | |
-| travel — secondary action | button-label | وقفة كاملة | | |
-| sick — message | body-text | جسمك يحتاجك تسمعه الحين، مو تجبره. التمارين موقوفة، بس الكروت اليومية تكمل. أحياناً، الراحة هي التمرين. | | |
-| sick — primary action | button-label | تمام | | |
-| emotional — message | body-text | ما راح أسألك وش صار. الحين، خذ وقتك. التطبيق راح يصمت تماماً. لما تحس إنك جاهز، فقط ارجع. ما فيه عداد، ما فيه ضغط. | | |
-| emotional — primary action | button-label | شكراً | | |
-| doubt — message | body-text | شاكك إن هذا ينفع؟ سؤال صحي، تستاهل جواب صريح. خلني أوريك وش تغيّر فيك، حتى لو ما لاحظت. | | |
-| doubt — primary action | button-label | وريني | | |
-| completed-no-sub — title | heading | مبروك | | |
-| completed-no-sub — message | body-text | أكملت 12 أسبوع. هذا توّه أول الطريق، مو نهايته. كل اللي تعلمته فيه قيمة، لكن لو وقفت هنا، يضيع. | | |
-| completed-no-sub — primary action | button-label | شوف عرض الخرّيج | | |
-| completed-no-sub — secondary action | button-label | لاحقاً | | |
-| about-to-cancel — message | body-text | قبل ما تروح: إنت بدأت رحلة، ووصلت لمكان. لو حسيت إن هذا مو وقتك، محترمين قرارك. حسابك وتقدمك محفوظ، وراجع لك وقت ما تستعد. الباب مفتوح دايماً. | | |
-| about-to-cancel — primary action | button-label | احتفظ بحسابي | | |
-| about-to-cancel — secondary action | button-label | ألغ الاشتراك | | |
+| missed-few-days — message | body-text | صار لك كم يوم. عادي، الحياة تزحم. السؤال مو ليش وقفت، السؤال تبي ترجع؟ لو إيه، خلنا نبدأ من وين وقفت، مو من الصفر. |✅ | |
+| missed-few-days — primary action | button-label | أكمل من وين وقفت |🟡 | |
+| missed-few-days — secondary action | button-label | ابدأ الأسبوع من جديد |✅ | |
+| missed-week — message | body-text | صار لك أسبوع. ما راح أزعجك أكثر، بس أبيك تعرف إن مكانك محفوظ. لو حبيت ترجع، التطبيق هنا. |✅ | |
+| missed-week — primary action | button-label | رجعت |✅ | |
+| failed-workout — message | body-text | ما قدرت تكمل؟ معناها إنك حاولت. الحين تعرف حدّك الحقيقي، وهذي معلومة ذهب. بكرة نبدأ من تحت حدّك بشوي، ونبني. |🟡 | |
+| failed-workout — primary action | button-label | تمام |✅ | |
+| frustrated — message | body-text | تحس إنك ما تقدمت؟ افتح شاشة إنجازاتك. الأسبوع اللي راح، نمت أحسن 3 ليالي، تحركت 5 مرات، وأنفاسك صارت أعمق. النتيجة مو دايم في المرايا، أحياناً في إحساسك. |🟡 | |
+| frustrated — primary action | button-label | افتح إنجازاتي |✅ | |
+| travel — title | heading | مسافر؟ تمام. |✅ | |
+| travel — message | body-text | عندك خياران. وضع خفيف يكمل معاك بتمارين 5 دقائق، أو وقفة كاملة ترجع منها لنفس النقطة. |🟡 | |
+| travel — primary action | button-label | وضع خفيف |🟡 | |
+| travel — secondary action | button-label | وقفة كاملة |✅ | |
+| sick — message | body-text | جسمك يحتاجك تسمعه الحين، مو تجبره. التمارين موقوفة، بس الكروت اليومية تكمل. أحياناً، الراحة هي التمرين. |🟡 | |
+| sick — primary action | button-label | تمام |✅ | |
+| emotional — message | body-text | ما راح أسألك وش صار. الحين، خذ وقتك. التطبيق راح يصمت تماماً. لما تحس إنك جاهز، فقط ارجع. ما فيه عداد، ما فيه ضغط. |🟡 | |
+| emotional — primary action | button-label | شكراً |✅ | |
+| doubt — message | body-text | شاكك إن هذا ينفع؟ سؤال صحي، تستاهل جواب صريح. خلني أوريك وش تغيّر فيك، حتى لو ما لاحظت. |🟡 | |
+| doubt — primary action | button-label | وريني |🟡 | |
+| completed-no-sub — title | heading | مبروك |✅ | |
+| completed-no-sub — message | body-text | أكملت 12 أسبوع. هذا توّه أول الطريق، مو نهايته. كل اللي تعلمته فيه قيمة، لكن لو وقفت هنا، يضيع. |🟡 | |
+| completed-no-sub — primary action | button-label | شوف عرض الخرّيج |✅ | |
+| completed-no-sub — secondary action | button-label | لاحقاً |✅ | |
+| about-to-cancel — message | body-text | قبل ما تروح: إنت بدأت رحلة، ووصلت لمكان. لو حسيت إن هذا مو وقتك، محترمين قرارك. حسابك وتقدمك محفوظ، وراجع لك وقت ما تستعد. الباب مفتوح دايماً. |🟡 | |
+| about-to-cancel — primary action | button-label | احتفظ بحسابي |✅ | |
+| about-to-cancel — secondary action | button-label | ألغ الاشتراك |✅ | |
 
 ---
 
