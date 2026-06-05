@@ -426,19 +426,19 @@ Each row below has:
 
 | Location | Type | Current | Verdict | Note |
 |---|---|---|---|---|
-| Day 4 — title | heading | الحوار الداخلي | | |
-| Day 4 / Khaled — scene | scene | في رأسك صوتين: واحد يقول "أنت كبير، اقعد"، وثاني يقول "تقدر، جرّب". الصوت الثاني أضعف، لكنه أصدق. الأسبوع الأول مهمته إنك تسمعه أكثر. | | |
-| Day 4 / Khaled — brain line 1 | dialog-line | عمر 44، الشغل ضاغط، عيال، التزامات. كل العذر معاي. | | |
-| Day 4 / Khaled — body line 1 | dialog-line | كل اللي قلته صح. ومع هذا، 10 دقائق موجودة. | | |
-| Day 4 / Khaled — challenge | challenge | لاحظ كم مرة تقول "ما أقدر" اليوم. عدّها فقط، لا تحكم. | | |
-| Day 4 / Yousef — scene | scene | طول حياتك تشتغل، تكافح، تنجز. لكن أعظم استثمار ما هو في البزنس، هو في جسمك. لأن لو الجسم وقع، كل البزنس يقع. | | |
-| Day 4 / Yousef — brain line 1 | dialog-line | لما أوصل لمستوى مالي معين، راح أهتم بصحتي. | | |
-| Day 4 / Yousef — body line 1 | dialog-line | المستوى المعين هذا ما يجي. كل مرة توصل، تحرك السقف. ابدأ الحين. | | |
-| Day 4 / Yousef — challenge | challenge | في اجتماعاتك اليوم، قف بدل ما تجلس لمدة 5 دقائق على الأقل. | | |
-| Day 4 / Abdullah — scene | scene | قرأت Marcus Aurelius و Seneca. تعرف فلسفة الستويكية. لكن الفلسفة اليوم ما هي في الكتب، هي في إنك تنفذ اللي تعرفه. | | |
-| Day 4 / Abdullah — brain line 1 | dialog-line | المعرفة كافية، التغيير يجي مع الفهم العميق. | | |
-| Day 4 / Abdullah — body line 1 | dialog-line | ولا واحد فهم نفسه من قراءة عنها. الفهم العميق يجي من الفعل. | | |
-| Day 4 / Abdullah — challenge | challenge | اكتب جملة وحدة: ما هي الحكمة اللي تعرفها لكن ما تنفذها؟ | | |
+| Day 4 — title | heading | الحوار الداخلي |🟡 | |
+| Day 4 / Khaled — scene | scene | في رأسك صوتين: واحد يقول "أنت كبير، اقعد"، وثاني يقول "تقدر، جرّب". الصوت الثاني أضعف، لكنه أصدق. الأسبوع الأول مهمته إنك تسمعه أكثر. |🟡 | |
+| Day 4 / Khaled — brain line 1 | dialog-line | عمر 44، الشغل ضاغط، عيال، التزامات. كل العذر معاي. |🟡 | |
+| Day 4 / Khaled — body line 1 | dialog-line | كل اللي قلته صح. ومع هذا، 10 دقائق موجودة. |🟡 | |
+| Day 4 / Khaled — challenge | challenge | لاحظ كم مرة تقول "ما أقدر" اليوم. عدّها فقط، لا تحكم. |🟡 | |
+| Day 4 / Yousef — scene | scene | طول حياتك تشتغل، تكافح، تنجز. لكن أعظم استثمار ما هو في البزنس، هو في جسمك. لأن لو الجسم وقع، كل البزنس يقع. |🟡 | |
+| Day 4 / Yousef — brain line 1 | dialog-line | لما أوصل لمستوى مالي معين، راح أهتم بصحتي. |✅ | |
+| Day 4 / Yousef — body line 1 | dialog-line | المستوى المعين هذا ما يجي. كل مرة توصل، تحرك السقف. ابدأ الحين. |🟡 | |
+| Day 4 / Yousef — challenge | challenge | في اجتماعاتك اليوم، قف بدل ما تجلس لمدة 5 دقائق على الأقل. |🟡 | |
+| Day 4 / Abdullah — scene | scene | قرأت Marcus Aurelius و Seneca. تعرف فلسفة الستويكية. لكن الفلسفة اليوم ما هي في الكتب، هي في إنك تنفذ اللي تعرفه. |🟡 | |
+| Day 4 / Abdullah — brain line 1 | dialog-line | المعرفة كافية، التغيير يجي مع الفهم العميق. |🟡 | |
+| Day 4 / Abdullah — body line 1 | dialog-line | ولا واحد فهم نفسه من قراءة عنها. الفهم العميق يجي من الفعل. |🟡 | |
+| Day 4 / Abdullah — challenge | challenge | اكتب جملة وحدة: ما هي الحكمة اللي تعرفها لكن ما تنفذها؟ |🟡 | |
 
 ### week1.ts — Day 5 (التمرين الثاني) — Workout Day
 
