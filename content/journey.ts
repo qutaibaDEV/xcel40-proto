@@ -16,25 +16,25 @@ export const phases: JourneyPhase[] = [
   {
     id: 'beginning',
     name: 'البداية',
-    description: 'الأسابيع الأربعة الأولى. تعرّف على جسمك من جديد.',
+    description: 'تعرّف على جسمك من جديد.',
     weekRange: [1, 4],
   },
   {
     id: 'continuation',
-    name: 'الاستمرار',
-    description: 'الأسابيع 5 إلى 8. تثبيت العادة.',
+    name: 'الإيقاع',
+    description: 'تثبيت العادة.',
     weekRange: [5, 8],
   },
   {
     id: 'change',
     name: 'بداية التغيير',
-    description: 'الأسابيع 9 إلى 12. الجسم يستجيب.',
+    description: 'الجسم يستجيب.',
     weekRange: [9, 12],
   },
   {
     id: 'after',
-    name: 'ما بعد',
-    description: 'بعد إكمال الرحلة. تحديات شهرية وحياة جديدة.',
+    name: 'الاستمرار',
+    description: 'تحديات شهرية وحياة جديدة.',
     weekRange: [13, 13],
   },
 ];

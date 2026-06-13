@@ -67,7 +67,7 @@ export function TodayScreen() {
         </h1>
 
         {/* Section: Scene */}
-        <Card label="المشهد">
+        <Card label="الواقع">
           <p className="text-sm leading-relaxed">
             {scenario.scene}
           </p>
@@ -121,7 +121,7 @@ export function TodayScreen() {
           onClick={() => completeDay(state.currentDay)}
           disabled={isCompleted}
         >
-          {isCompleted ? 'أنجزت اليوم — كمل بكرة' : 'أنجزت اليوم'}
+          {isCompleted ? 'أنجزت اليوم — أكمل غداً' : 'أنجزت اليوم'}
         </Button>
       </ScreenContainer>
     </PhoneFrame>

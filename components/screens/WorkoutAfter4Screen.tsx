@@ -14,15 +14,15 @@ export function WorkoutAfter4Screen() {
 
   const tomorrowHint = tomorrowCard
     ? tomorrowCard.type === 'workout'
-      ? 'بكرة تمرين جديد. ٢٠ دقيقة بس.'
-      : 'بكرة يوم راحة. تحدي صغير ينتظرك.'
-    : 'بكرة محتوى جديد ينتظرك.';
+      ? 'غداً تمرين جديد، 20 دقيقة فقط.'
+      : 'غداً يوم راحة، تحدٍّ صغير ينتظرك.'
+    : 'غداً محتوى جديد ينتظرك.';
 
   return (
     <PhoneFrame variant="dark">
       <ScreenContainer>
         <p className="text-xs uppercase tracking-widest opacity-50 mb-6">
-          بكرة
+          غداً
         </p>
 
         <div className="flex-1 flex items-center">

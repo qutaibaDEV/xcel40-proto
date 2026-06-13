@@ -12,14 +12,14 @@ export const onboardingFrames: OnboardingFrame[] = [
     id: 2,
     title: 'كم عمرك؟',
     body: 'عشان نتأكد إن هذا التطبيق مصمم لك تحديداً.',
-    buttonLabel: 'كمّل',
+    buttonLabel: 'التالي',
     variant: 'light',
   },
   {
     id: 4,
     title: 'نتيجتك',
     body: 'إنت مو في وضع سيء. إنت في وضع متوقف. جسمك ينتظر إشارة بس.',
-    buttonLabel: 'وش الإشارة؟',
+    buttonLabel: 'ابدأ الرحلة',
     variant: 'dark',
   },
   {
@@ -35,7 +35,7 @@ export const assessmentQuestions: AssessmentQuestion[] = [
   {
     id: 1,
     question: 'تقدر تصعد 3 أدوار درج بدون ما تلهث؟',
-    options: ['أيه، عادي', 'أقدر بس ألهث شوي', 'صعب عليّ'],
+    options: ['نعم، بسهولة', 'نعم لكن أتعب', 'لا، يصعب عليّ'],
   },
   {
     id: 2,
@@ -45,7 +45,7 @@ export const assessmentQuestions: AssessmentQuestion[] = [
   {
     id: 3,
     question: 'آخر مرة حسيت بجسمك خفيف، متى؟',
-    options: ['قريب، الأسبوع اللي راح', 'من أشهر', 'من سنين'],
+    options: ['قريب، الأسبوع الماضي', 'من أشهر', 'من سنين'],
   },
   {
     id: 4,

@@ -50,14 +50,13 @@ export function JourneyScreen() {
           return (
             <div key={phase.id} className="mb-8">
               {/* Phase header */}
-              <div className="flex items-baseline gap-3 mb-3">
-                <p className="text-xs opacity-40 uppercase tracking-wider">
-                  {phase.weekRange[0]}-{phase.weekRange[1] === 13 ? 'ما بعد' : phase.weekRange[1]}
-                </p>
+              <div className="mb-3">
                 <h2 className={`text-xl font-semibold ${
                   phaseStatus === 'future' || phaseStatus === 'locked' ? 'opacity-50' : ''
                 }`}>
-                  {phase.name}
+                  {phase.weekRange[0] === 13 && phase.weekRange[1] === 13
+                    ? `${phase.name} — بعد الأسبوع 12`
+                    : `${phase.name} — الأسابيع ${phase.weekRange[0]} إلى ${phase.weekRange[1]}`}
                 </h2>
               </div>
               <p className={`text-xs leading-relaxed mb-4 ${

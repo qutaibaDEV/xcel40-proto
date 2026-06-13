@@ -72,7 +72,7 @@ export function AssessmentScreen() {
         <div className="flex-1" />
 
         <Button onClick={handleContinue} disabled={!selectedOption}>
-          {state.assessmentStep < totalQuestions ? 'التالي' : 'شوف نتيجتك'}
+          {state.assessmentStep < totalQuestions ? 'التالي' : 'اعرض النتيجة'}
         </Button>
       </ScreenContainer>
     </PhoneFrame>

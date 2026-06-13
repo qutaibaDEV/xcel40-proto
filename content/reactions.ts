@@ -11,7 +11,7 @@ export const reactions: Record<string, ReactionResponse> = {
     trigger: 'missed-few-days',
     title: '',
     message: 'صار لك كم يوم. عادي، الحياة تزحم. السؤال مو ليش وقفت، السؤال تبي ترجع؟ لو إيه، خلنا نبدأ من وين وقفت، مو من الصفر.',
-    primaryAction: 'أكمل من وين وقفت',
+    primaryAction: 'أكمل من حيث توقفت',
     secondaryAction: 'ابدأ الأسبوع من جديد',
   },
   'missed-week': {
@@ -55,7 +55,7 @@ export const reactions: Record<string, ReactionResponse> = {
     trigger: 'doubt',
     title: '',
     message: 'شاكك إن هذا ينفع؟ سؤال صحي، تستاهل جواب صريح. خلني أوريك وش تغيّر فيك، حتى لو ما لاحظت.',
-    primaryAction: 'وريني',
+    primaryAction: 'اعرض لي',
   },
   'completed-no-sub': {
     trigger: 'completed-no-sub',

@@ -19,7 +19,7 @@ export function WorkoutAfter1Screen() {
 
           {/* Main message */}
           <p className="text-2xl font-semibold leading-relaxed mb-4">
-            خلصت
+            أنجزت
           </p>
 
           <p className="text-lg leading-relaxed opacity-80 max-w-xs">
@@ -28,7 +28,7 @@ export function WorkoutAfter1Screen() {
         </div>
 
         <Button onClick={nextStep}>
-          كمّل
+          التالي
         </Button>
       </ScreenContainer>
     </PhoneFrame>

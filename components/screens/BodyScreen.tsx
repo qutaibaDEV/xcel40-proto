@@ -37,7 +37,7 @@ export function BodyScreen() {
     <PhoneFrame variant="light" showNav={true}>
       <ScreenContainer>
         <p className="text-xs uppercase tracking-widest opacity-50 mb-2">
-          متابعة
+          تتبّع
         </p>
         <h1 className="text-3xl font-semibold mb-6">
           جسمك

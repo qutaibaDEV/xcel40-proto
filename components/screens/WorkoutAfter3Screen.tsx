@@ -25,7 +25,7 @@ export function WorkoutAfter3Screen() {
     <PhoneFrame variant="light">
       <ScreenContainer>
         <p className="text-xs uppercase tracking-widest opacity-50 mb-6">
-          تقدمك
+          التطور
         </p>
 
         <div className="mb-6">
@@ -51,7 +51,7 @@ export function WorkoutAfter3Screen() {
         <div className="flex-1 min-h-[24px]" />
 
         <Button onClick={nextStep}>
-          كمّل
+          التالي
         </Button>
       </ScreenContainer>
     </PhoneFrame>

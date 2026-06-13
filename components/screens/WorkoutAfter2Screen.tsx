@@ -8,7 +8,7 @@ import { useApp } from '@/context/AppContext';
 import { FeelingOption } from '@/lib/types';
 
 const feelingOptions: { id: FeelingOption; label: string }[] = [
-  { id: 'exhausted', label: 'منهك، كان صعب' },
+  { id: 'exhausted', label: 'مرهق، كان صعب' },
   { id: 'tired-but-good', label: 'تعبت بس حلو' },
   { id: 'light-want-more', label: 'خفيف، أقدر أزيد' },
 ];
@@ -36,7 +36,7 @@ export function WorkoutAfter2Screen() {
       <ScreenContainer>
         {/* Heading */}
         <h2 className="text-xl font-semibold leading-relaxed mb-2">
-          كيف تحس بعد التمرين؟
+          كيف تشعر بعد التمرين؟
         </h2>
         <p className="text-sm opacity-60 mb-6">
           ثانية وحدة. هذا يساعدنا نعرف جسمك.
@@ -72,7 +72,7 @@ export function WorkoutAfter2Screen() {
             <textarea
               value={noteText}
               onChange={(e) => setNoteText(e.target.value)}
-              placeholder="وش حسيت؟ وش تعلمت؟ كلمة أو جملة، براحتك..."
+              placeholder="ماذا شعرت؟ ماذا تعلّمت؟ كلمة أو جملة، كما تشاء..."
               className="w-full border border-line rounded-xl p-4 text-sm leading-relaxed resize-none focus:outline-none focus:border-ink"
               rows={3}
               maxLength={500}
@@ -87,7 +87,7 @@ export function WorkoutAfter2Screen() {
 
         {/* Continue button */}
         <Button onClick={handleContinue} disabled={!selectedFeeling}>
-          كمّل
+          التالي
         </Button>
 
         {/* Skip option (small, subtle) */}
@@ -95,7 +95,7 @@ export function WorkoutAfter2Screen() {
           onClick={nextStep}
           className="text-sm opacity-40 mt-3 mx-auto"
         >
-          تخطّى
+          تخطّي
         </button>
       </ScreenContainer>
     </PhoneFrame>

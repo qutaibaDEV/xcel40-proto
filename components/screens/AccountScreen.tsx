@@ -37,7 +37,7 @@ export function AccountScreen() {
               </p>
             </div>
             <div>
-              <p className="text-xs opacity-50 mb-1">في الرحلة منذ</p>
+              <p className="text-xs opacity-50 mb-1">معنا منذ</p>
               <p className="text-base font-semibold">
                 {state.completedDays.length} يوم
               </p>
@@ -64,12 +64,12 @@ export function AccountScreen() {
         </Card>
 
         {/* Time-off section — gateway to negative cases */}
-        <Card label="وقت مستقطع">
+        <Card label="إيقاف مؤقت">
           <p className="text-xs opacity-60 leading-relaxed mb-3">
             الحياة تزحم. لو احتجت توقّف الرحلة لأي سبب — سفر، مرض، ظرف — نحفظ تقدمك وترجع متى ما تبي.
           </p>
           <Button variant="ghost" fullWidth={false}>
-            أحتاج وقت مستقطع
+            إيقاف مؤقت للرحلة
           </Button>
         </Card>
 

@@ -27,11 +27,11 @@ export function AchievementsScreen() {
           إنجازاتك
         </p>
         <h1 className="text-3xl font-semibold mb-6">
-          ما بنيته
+          ماذا أنجزت
         </h1>
 
         {/* Stats — real data */}
-        <Card label="أرقامك">
+        <Card label="أرقام رحلتك">
           <div className="space-y-4">
             <div>
               <p className="text-3xl font-semibold">

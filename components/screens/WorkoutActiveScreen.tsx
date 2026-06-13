@@ -50,7 +50,7 @@ export function WorkoutActiveScreen() {
         {/* Bottom buttons */}
         <div className="space-y-3">
           <Button onClick={finishWorkoutPhysical}>
-            خلصت
+            انتهيت
           </Button>
           <Button variant="ghost" onClick={() => setStep('today')}>
             رجوع
